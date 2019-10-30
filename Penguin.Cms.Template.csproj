@@ -1,11 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Template</PackageProjectUrl>
+    <Version>1.0.0</Version>
+    <IsPackable>true</IsPackable>
+    <Description>Not Available</Description>
+    <AssemblyName>Penguin.Cms.Template</AssemblyName>
+    <RootNamespace>Penguin.Cms.Template</RootNamespace>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Penguin.Cms" Version="0.9.1-T9M1KR6" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.0.0" />
+    <PackageReference Include="Penguin.Cms" Version="0.9.1-T9M2XAX" />
   </ItemGroup>
-
+  <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>

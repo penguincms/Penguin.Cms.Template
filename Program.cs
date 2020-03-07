@@ -12,7 +12,6 @@ namespace Penguin.Cms.Client
 
         public static void Main()
         {
-
             Penguin.Cms.Web.Mvc.HostBuilder.Configure().ConfigureWebHostDefaults(webBuilder =>
             {
                 webBuilder.UseIIS()
@@ -25,7 +24,6 @@ namespace Penguin.Cms.Client
                 .UseStartup<Startup>();
             })
             .Build().Run();
-
         }
     }
 }

@@ -1,219 +1,224 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Template.Local", "Penguin.Cms.Template.Local.csproj", "{C325CA20-E6AA-4120-9E3E-CF90DA96CE11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Template.Local", "Penguin.Cms.Template.Local.csproj", "{C325CA20-E6AA-4120-9E3E-CF90DA96CE11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Local", "..\Penguin.Cms\Penguin.Cms.Local.csproj", "{0B4AFA81-4416-4085-BA0D-E2AA5EFBDEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Local", "..\Penguin.Cms\Penguin.Cms.Local.csproj", "{0B4AFA81-4416-4085-BA0D-E2AA5EFBDEE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Core.Local", "..\Penguin.Cms.Core\Penguin.Cms.Core.Local.csproj", "{4965F8F4-31D9-45EE-AF5B-B842417643E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Core.Local", "..\Penguin.Cms.Core\Penguin.Cms.Core.Local.csproj", "{4965F8F4-31D9-45EE-AF5B-B842417643E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Abstractions.Local", "..\Penguin.Cms.Abstractions\Penguin.Cms.Abstractions.Local.csproj", "{CFEF652B-2085-4504-881B-A4B31A7F5125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Abstractions.Local", "..\Penguin.Cms.Abstractions\Penguin.Cms.Abstractions.Local.csproj", "{CFEF652B-2085-4504-881B-A4B31A7F5125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.DependencyInjection.Abstractions.Local", "..\Penguin.DependencyInjection.Abstractions\Penguin.DependencyInjection.Abstractions.Local.csproj", "{90E1360D-22CF-4A1F-AF81-479DB43C5D07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.DependencyInjection.Abstractions.Local", "..\Penguin.DependencyInjection.Abstractions\Penguin.DependencyInjection.Abstractions.Local.csproj", "{90E1360D-22CF-4A1F-AF81-479DB43C5D07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.Abstractions.Local", "..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.Local.csproj", "{433FCC45-E5DC-4A60-B0A2-59B09A7EA56A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.Abstractions.Local", "..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.Local.csproj", "{433FCC45-E5DC-4A60-B0A2-59B09A7EA56A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Entities.Abstractions.Local", "..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.Local.csproj", "{3029E3EC-4C0D-4C09-8E03-F661FFB18113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Entities.Abstractions.Local", "..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.Local.csproj", "{3029E3EC-4C0D-4C09-8E03-F661FFB18113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Extensions.Local", "..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.Local.csproj", "{68F58484-8343-4AE9-A270-145AFCE90189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Extensions.Local", "..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.Local.csproj", "{68F58484-8343-4AE9-A270-145AFCE90189}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Extensions.String.Local", "..\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj", "{BF94F38B-91DB-4E0D-A9DF-C8570D935916}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Extensions.String.Local", "..\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj", "{BF94F38B-91DB-4E0D-A9DF-C8570D935916}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Abstractions.Local", "..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.Local.csproj", "{3D2089DA-7C51-4CC1-8802-96588C89FA9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Abstractions.Local", "..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.Local.csproj", "{3D2089DA-7C51-4CC1-8802-96588C89FA9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Local", "..\Penguin.Reflection\Penguin.Reflection.Local.csproj", "{2B8A740B-B263-4E3B-8866-AFECE088A402}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Local", "..\Penguin.Reflection\Penguin.Reflection.Local.csproj", "{2B8A740B-B263-4E3B-8866-AFECE088A402}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Debugging.Local", "..\Penguin.Debugging\Penguin.Debugging.Local.csproj", "{0A2AD57F-EEEB-4094-9A6F-89BD4CC9A324}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Debugging.Local", "..\Penguin.Debugging\Penguin.Debugging.Local.csproj", "{0A2AD57F-EEEB-4094-9A6F-89BD4CC9A324}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Extensions.Exceptions.Local", "..\Penguin.Extensions.Exceptions\Penguin.Extensions.Exceptions.Local.csproj", "{825E0792-B8E8-40E8-B122-1CAAA688A60B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Extensions.Exceptions.Local", "..\Penguin.Extensions.Exceptions\Penguin.Extensions.Exceptions.Local.csproj", "{825E0792-B8E8-40E8-B122-1CAAA688A60B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Macros.Local", "..\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj", "{90DFB277-2ED0-4180-BB10-F0B7A2CB3413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Macros.Local", "..\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj", "{90DFB277-2ED0-4180-BB10-F0B7A2CB3413}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.DependencyInjection.Local", "..\Penguin.Persistence.DependencyInjection\Penguin.Persistence.DependencyInjection.Local.csproj", "{48E8C88C-CFDB-453D-B78A-2F8E6EE25279}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.DependencyInjection.Local", "..\Penguin.Persistence.DependencyInjection\Penguin.Persistence.DependencyInjection.Local.csproj", "{48E8C88C-CFDB-453D-B78A-2F8E6EE25279}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Configuration.Abstractions.Local", "..\Penguin.Configuration.Abstractions\Penguin.Configuration.Abstractions.Local.csproj", "{C70FC59E-B822-4977-A18C-249B3A6B6585}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Configuration.Abstractions.Local", "..\Penguin.Configuration.Abstractions\Penguin.Configuration.Abstractions.Local.csproj", "{C70FC59E-B822-4977-A18C-249B3A6B6585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.EntityFramework.Local", "..\Penguin.Persistence.EntityFramework\Penguin.Persistence.EntityFramework.Local.csproj", "{780BC9B1-4E43-4014-B313-4201B2E773B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.EntityFramework.Local", "..\Penguin.Persistence.EntityFramework\Penguin.Persistence.EntityFramework.Local.csproj", "{780BC9B1-4E43-4014-B313-4201B2E773B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Entities.Local", "..\Penguin.Cms.Entities\Penguin.Cms.Entities.Local.csproj", "{C4C79576-B125-4350-AE59-CEFC645541E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Entities.Local", "..\Penguin.Cms.Entities\Penguin.Cms.Entities.Local.csproj", "{C4C79576-B125-4350-AE59-CEFC645541E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.Repositories.EntityFramework.Local", "..\Penguin.Persistence.Repositories.EntityFramework\Penguin.Persistence.Repositories.EntityFramework.Local.csproj", "{FC9B1DB6-8F86-4614-95A1-99AD3DF917E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.Repositories.EntityFramework.Local", "..\Penguin.Persistence.Repositories.EntityFramework\Penguin.Persistence.Repositories.EntityFramework.Local.csproj", "{FC9B1DB6-8F86-4614-95A1-99AD3DF917E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Messaging.Logging.Local", "..\Penguin.Messaging.Logging\Penguin.Messaging.Logging.Local.csproj", "{D45EEBED-DB0D-4FB6-9978-326342D2A0F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Messaging.Logging.Local", "..\Penguin.Messaging.Logging\Penguin.Messaging.Logging.Local.csproj", "{D45EEBED-DB0D-4FB6-9978-326342D2A0F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Messaging.Abstractions.Local", "..\Penguin.Messaging.Abstractions\Penguin.Messaging.Abstractions.Local.csproj", "{B41C4EA8-49FC-410B-ACB5-07FDF6B62CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Messaging.Abstractions.Local", "..\Penguin.Messaging.Abstractions\Penguin.Messaging.Abstractions.Local.csproj", "{B41C4EA8-49FC-410B-ACB5-07FDF6B62CF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Messaging.Core.Local", "..\Penguin.Messaging.Core\Penguin.Messaging.Core.Local.csproj", "{D56E5931-B825-4FA4-8F53-310212874C58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Messaging.Core.Local", "..\Penguin.Messaging.Core\Penguin.Messaging.Core.Local.csproj", "{D56E5931-B825-4FA4-8F53-310212874C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Messaging.Persistence.Local", "..\Penguin.Messaging.Persistence\Penguin.Messaging.Persistence.Local.csproj", "{9707BF4B-3182-4759-A6E3-CDC08C381D77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Messaging.Persistence.Local", "..\Penguin.Messaging.Persistence\Penguin.Messaging.Persistence.Local.csproj", "{9707BF4B-3182-4759-A6E3-CDC08C381D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Email.Local", "..\Penguin.Cms.Modules.Email\Penguin.Cms.Modules.Email.Local.csproj", "{269311D6-72AF-43FC-85C1-CE14C1BB47D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Email.Local", "..\Penguin.Cms.Modules.Email\Penguin.Cms.Modules.Email.Local.csproj", "{269311D6-72AF-43FC-85C1-CE14C1BB47D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Email.DependencyInjection.Local", "..\Penguin.Cms.Email.DependencyInjection\Penguin.Cms.Email.DependencyInjection.Local.csproj", "{52C49A8B-EC99-4DEB-A174-9A435A20394B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Email.DependencyInjection.Local", "..\Penguin.Cms.Email.DependencyInjection\Penguin.Cms.Email.DependencyInjection.Local.csproj", "{52C49A8B-EC99-4DEB-A174-9A435A20394B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Email.Local", "..\Penguin.Cms.Email\Penguin.Cms.Email.Local.csproj", "{BB5A7DB2-1E7D-4400-B303-C6F6B7F97E08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Email.Local", "..\Penguin.Cms.Email\Penguin.Cms.Email.Local.csproj", "{BB5A7DB2-1E7D-4400-B303-C6F6B7F97E08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Email.Abstractions.Local", "..\Penguin.Cms.Email.Abstractions\Penguin.Cms.Email.Abstractions.Local.csproj", "{ABC0E6A5-B54E-4D58-AE8B-1CDD6808F3E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Email.Abstractions.Local", "..\Penguin.Cms.Email.Abstractions\Penguin.Cms.Email.Abstractions.Local.csproj", "{ABC0E6A5-B54E-4D58-AE8B-1CDD6808F3E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Email.Abstractions.Local", "..\Penguin.Email.Abstractions\Penguin.Email.Abstractions.Local.csproj", "{E80E1D3D-D3C4-4C3F-9A62-32D1F1FC9D93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Email.Abstractions.Local", "..\Penguin.Email.Abstractions\Penguin.Email.Abstractions.Local.csproj", "{E80E1D3D-D3C4-4C3F-9A62-32D1F1FC9D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Files.Abstractions.Local", "..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj", "{1EFA20C5-42F5-4B5B-AF23-0A3B3323A244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Files.Abstractions.Local", "..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj", "{1EFA20C5-42F5-4B5B-AF23-0A3B3323A244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Files.Local", "..\Penguin.Cms.Files\Penguin.Cms.Files.Local.csproj", "{F752EC35-47F8-472A-90B0-A1949B8BE806}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Files.Local", "..\Penguin.Cms.Files\Penguin.Cms.Files.Local.csproj", "{F752EC35-47F8-472A-90B0-A1949B8BE806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Email.Local", "..\Penguin.Email\Penguin.Email.Local.csproj", "{05C22FEE-7C6C-49D4-95CB-262F20E3BEEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Email.Local", "..\Penguin.Email\Penguin.Email.Local.csproj", "{05C22FEE-7C6C-49D4-95CB-262F20E3BEEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Data.Local", "..\Penguin.Web.Data\Penguin.Web.Data.Local.csproj", "{0307B646-E76C-4F78-866A-BDFDF51979B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Data.Local", "..\Penguin.Web.Data\Penguin.Web.Data.Local.csproj", "{0307B646-E76C-4F78-866A-BDFDF51979B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Email.Templating.Local", "..\Penguin.Cms.Email.Templating\Penguin.Cms.Email.Templating.Local.csproj", "{335A67A2-A3E0-4E4A-A7B7-C76271EECE64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Email.Templating.Local", "..\Penguin.Cms.Email.Templating\Penguin.Cms.Email.Templating.Local.csproj", "{335A67A2-A3E0-4E4A-A7B7-C76271EECE64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Email.Templating.Abstractions.Local", "..\Penguin.Email.Templating.Abstractions\Penguin.Email.Templating.Abstractions.Local.csproj", "{ADEE07B0-D91B-4590-BFE1-5A872760C53B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Email.Templating.Abstractions.Local", "..\Penguin.Email.Templating.Abstractions\Penguin.Email.Templating.Abstractions.Local.csproj", "{ADEE07B0-D91B-4590-BFE1-5A872760C53B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Templating.Abstractions.Local", "..\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.Local.csproj", "{E804A8EF-C9F4-4A9A-A409-8CA77A528F12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Templating.Abstractions.Local", "..\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.Local.csproj", "{E804A8EF-C9F4-4A9A-A409-8CA77A528F12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Email.Templating.Repositories.Local", "..\Penguin.Cms.Email.Templating.Repositories\Penguin.Cms.Email.Templating.Repositories.Local.csproj", "{B115132C-D04D-430D-B19C-FCDB1CAEF690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Email.Templating.Repositories.Local", "..\Penguin.Cms.Email.Templating.Repositories\Penguin.Cms.Email.Templating.Repositories.Local.csproj", "{B115132C-D04D-430D-B19C-FCDB1CAEF690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Repositories.Local", "..\Penguin.Cms.Repositories\Penguin.Cms.Repositories.Local.csproj", "{2B4E510F-4759-473C-9879-C900F1E28BB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Repositories.Local", "..\Penguin.Cms.Repositories\Penguin.Cms.Repositories.Local.csproj", "{2B4E510F-4759-473C-9879-C900F1E28BB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.Repositories.Local", "..\Penguin.Persistence.Repositories\Penguin.Persistence.Repositories.Local.csproj", "{5DF6DA1A-601E-478E-910F-E1E35D6EFDB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.Repositories.Local", "..\Penguin.Persistence.Repositories\Penguin.Persistence.Repositories.Local.csproj", "{5DF6DA1A-601E-478E-910F-E1E35D6EFDB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.DependencyInjection.Local", "..\Penguin.DependencyInjection\Penguin.DependencyInjection.Local.csproj", "{A4D5E5ED-B491-4997-B847-BCBE0289E0C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.DependencyInjection.Local", "..\Penguin.DependencyInjection\Penguin.DependencyInjection.Local.csproj", "{A4D5E5ED-B491-4997-B847-BCBE0289E0C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Email.Templating.Local", "..\Penguin.Email.Templating\Penguin.Email.Templating.Local.csproj", "{4FD2AA96-F5AB-41B0-AA6D-86DB7062FC04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Email.Templating.Local", "..\Penguin.Email.Templating\Penguin.Email.Templating.Local.csproj", "{4FD2AA96-F5AB-41B0-AA6D-86DB7062FC04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Dynamic.Local", "..\Penguin.Cms.Modules.Dynamic\Penguin.Cms.Modules.Dynamic.Local.csproj", "{FACE64FF-5B6B-41FF-814D-813D242482F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Dynamic.Local", "..\Penguin.Cms.Modules.Dynamic\Penguin.Cms.Modules.Dynamic.Local.csproj", "{FACE64FF-5B6B-41FF-814D-813D242482F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Errors.Local", "..\Penguin.Cms.Errors\Penguin.Cms.Errors.Local.csproj", "{77E93193-7838-4215-B4D2-A6CE0855DA51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Errors.Local", "..\Penguin.Cms.Errors\Penguin.Cms.Errors.Local.csproj", "{77E93193-7838-4215-B4D2-A6CE0855DA51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Auditing.Abstractions.Local", "..\Penguin.Auditing.Abstractions\Penguin.Auditing.Abstractions.Local.csproj", "{0A21FD83-E1F6-4F70-801D-A77CF3E745A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Auditing.Abstractions.Local", "..\Penguin.Auditing.Abstractions\Penguin.Auditing.Abstractions.Local.csproj", "{0A21FD83-E1F6-4F70-801D-A77CF3E745A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Admin.Local", "..\Penguin.Cms.Modules.Admin\Penguin.Cms.Modules.Admin.Local.csproj", "{31E4EF80-3721-4EA1-A4D7-F595CDA52CE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Admin.Local", "..\Penguin.Cms.Modules.Admin\Penguin.Cms.Modules.Admin.Local.csproj", "{31E4EF80-3721-4EA1-A4D7-F595CDA52CE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Core.Local", "..\Penguin.Cms.Modules.Core\Penguin.Cms.Modules.Core.Local.csproj", "{DD2950D3-502D-41D4-839C-46165A94137A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Core.Local", "..\Penguin.Cms.Modules.Core\Penguin.Cms.Modules.Core.Local.csproj", "{DD2950D3-502D-41D4-839C-46165A94137A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Web.Local", "..\Penguin.Cms.Web\Penguin.Cms.Web.Local.csproj", "{D47C386A-1F96-4F12-B379-7AE09F4F2487}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Web.Local", "..\Penguin.Cms.Web\Penguin.Cms.Web.Local.csproj", "{D47C386A-1F96-4F12-B379-7AE09F4F2487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Configuration.Local", "..\Penguin.Configuration\Penguin.Configuration.Local.csproj", "{62560E52-6C99-4839-A240-2F222906D0ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Configuration.Local", "..\Penguin.Configuration\Penguin.Configuration.Local.csproj", "{62560E52-6C99-4839-A240-2F222906D0ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Extensions.Collections.Local", "..\Penguin.Extensions.Collections\Penguin.Extensions.Collections.Local.csproj", "{710D8536-553A-48FB-A94B-CC934B5C6902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Extensions.Collections.Local", "..\Penguin.Extensions.Collections\Penguin.Extensions.Collections.Local.csproj", "{710D8536-553A-48FB-A94B-CC934B5C6902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Files.Local", "..\Penguin.Files\Penguin.Files.Local.csproj", "{384F8075-BCF6-4A2C-BB54-C2B41BE55334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Files.Local", "..\Penguin.Files\Penguin.Files.Local.csproj", "{384F8075-BCF6-4A2C-BB54-C2B41BE55334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Security.Abstractions.Local", "..\Penguin.Security.Abstractions\Penguin.Security.Abstractions.Local.csproj", "{31378FC1-8970-4123-9824-3986FD462E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Security.Abstractions.Local", "..\Penguin.Security.Abstractions\Penguin.Security.Abstractions.Local.csproj", "{31378FC1-8970-4123-9824-3986FD462E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Messaging.Application.Local", "..\Penguin.Messaging.Application\Penguin.Messaging.Application.Local.csproj", "{985015AA-FC36-4269-A598-084D274F135C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Messaging.Application.Local", "..\Penguin.Messaging.Application\Penguin.Messaging.Application.Local.csproj", "{985015AA-FC36-4269-A598-084D274F135C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.Database.Local", "..\Penguin.Persistence.Database\Penguin.Persistence.Database.Local.csproj", "{0AA8702D-EA16-4E9F-8002-95BA5E4B00E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.Database.Local", "..\Penguin.Persistence.Database\Penguin.Persistence.Database.Local.csproj", "{0AA8702D-EA16-4E9F-8002-95BA5E4B00E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Threading.BackgroundWorker.Local", "..\Penguin.Threading.BackgroundWorker\Penguin.Threading.BackgroundWorker.Local.csproj", "{B460F48F-7D8A-4F2C-89E9-2306A36ABEFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Threading.BackgroundWorker.Local", "..\Penguin.Threading.BackgroundWorker\Penguin.Threading.BackgroundWorker.Local.csproj", "{B460F48F-7D8A-4F2C-89E9-2306A36ABEFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Serialization.Local", "..\Penguin.Reflection.Serialization\Penguin.Reflection.Serialization.Local.csproj", "{B63A358F-5135-4060-8599-9586BE9EB1DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Serialization.Local", "..\Penguin.Reflection.Serialization\Penguin.Reflection.Serialization.Local.csproj", "{B63A358F-5135-4060-8599-9586BE9EB1DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Serialization.Abstractions.Local", "..\Penguin.Reflection.Serialization.Abstractions\Penguin.Reflection.Serialization.Abstractions.Local.csproj", "{6EDDC110-5FA8-41F7-AB73-F24813D2EE91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Serialization.Abstractions.Local", "..\Penguin.Reflection.Serialization.Abstractions\Penguin.Reflection.Serialization.Abstractions.Local.csproj", "{6EDDC110-5FA8-41F7-AB73-F24813D2EE91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Serialization.Extensions.Local", "..\Penguin.Reflection.Serialization.Extensions\Penguin.Reflection.Serialization.Extensions.Local.csproj", "{520CA2DC-C2AC-4302-A868-69A8679A2EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Serialization.Extensions.Local", "..\Penguin.Reflection.Serialization.Extensions\Penguin.Reflection.Serialization.Extensions.Local.csproj", "{520CA2DC-C2AC-4302-A868-69A8679A2EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Testing.Local", "..\Penguin.Testing\Penguin.Testing.Local.csproj", "{94823645-ACBF-4325-B391-DE52EF2847EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Testing.Local", "..\Penguin.Testing\Penguin.Testing.Local.csproj", "{94823645-ACBF-4325-B391-DE52EF2847EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Abstractions.Local", "..\Penguin.Web.Abstractions\Penguin.Web.Abstractions.Local.csproj", "{84F676EF-56C3-4312-BDF6-E37F96288187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Abstractions.Local", "..\Penguin.Web.Abstractions\Penguin.Web.Abstractions.Local.csproj", "{84F676EF-56C3-4312-BDF6-E37F96288187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.DependencyInjection.Local", "..\Penguin.Web.DependencyInjection\Penguin.Web.DependencyInjection.Local.csproj", "{C2EBF87F-2ABB-446B-AAE6-70FEDAA20DB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.DependencyInjection.Local", "..\Penguin.Web.DependencyInjection\Penguin.Web.DependencyInjection.Local.csproj", "{C2EBF87F-2ABB-446B-AAE6-70FEDAA20DB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Testing.Local", "..\Penguin.Web.Testing\Penguin.Web.Testing.Local.csproj", "{2647FDC2-2D6D-484F-A3E8-B7E997686244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Testing.Local", "..\Penguin.Web.Testing\Penguin.Web.Testing.Local.csproj", "{2647FDC2-2D6D-484F-A3E8-B7E997686244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Errors.Local", "..\Penguin.Web.Errors\Penguin.Web.Errors.Local.csproj", "{4175A3C9-D2D2-4245-BB25-FD9C58AB9CC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Errors.Local", "..\Penguin.Web.Errors\Penguin.Web.Errors.Local.csproj", "{4175A3C9-D2D2-4245-BB25-FD9C58AB9CC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Mvc.Local", "..\Penguin.Web.Mvc\Penguin.Web.Mvc.Local.csproj", "{E25485BE-7A8C-46FA-B97F-CC38DF10620A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Mvc.Local", "..\Penguin.Web.Mvc\Penguin.Web.Mvc.Local.csproj", "{E25485BE-7A8C-46FA-B97F-CC38DF10620A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Mvc.Abstractions.Local", "..\Penguin.Web.Mvc.Abstractions\Penguin.Web.Mvc.Abstractions.Local.csproj", "{74FFBD49-A86C-4569-BDE3-6A9323B30A46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Mvc.Abstractions.Local", "..\Penguin.Web.Mvc.Abstractions\Penguin.Web.Mvc.Abstractions.Local.csproj", "{74FFBD49-A86C-4569-BDE3-6A9323B30A46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Navigation.Abstractions.Local", "..\Penguin.Navigation.Abstractions\Penguin.Navigation.Abstractions.Local.csproj", "{E51670F7-BEE4-4DDA-BDC7-7D9993F4C9BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Navigation.Abstractions.Local", "..\Penguin.Navigation.Abstractions\Penguin.Navigation.Abstractions.Local.csproj", "{E51670F7-BEE4-4DDA-BDC7-7D9993F4C9BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Security.Local", "..\Penguin.Web.Security\Penguin.Web.Security.Local.csproj", "{B054CA15-B431-45CD-873D-F88F387D2B78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Security.Local", "..\Penguin.Web.Security\Penguin.Web.Security.Local.csproj", "{B054CA15-B431-45CD-873D-F88F387D2B78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Shared.Objects.Local", "..\Penguin.Shared.Objects\Penguin.Shared.Objects.Local.csproj", "{AA9ABEB4-11BB-4A92-A239-5023C98C6813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Shared.Objects.Local", "..\Penguin.Shared.Objects\Penguin.Shared.Objects.Local.csproj", "{AA9ABEB4-11BB-4A92-A239-5023C98C6813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Dynamic.Local", "..\Penguin.Web.Dynamic\Penguin.Web.Dynamic.Local.csproj", "{158E4D8C-06B9-4A9E-B408-30DCF780B1BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Dynamic.Local", "..\Penguin.Web.Dynamic\Penguin.Web.Dynamic.Local.csproj", "{158E4D8C-06B9-4A9E-B408-30DCF780B1BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Email.Templating.Local", "..\Penguin.Web.Email.Templating\Penguin.Web.Email.Templating.Local.csproj", "{3A27B963-01A1-4CEC-A6D8-FFDA106A9BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Email.Templating.Local", "..\Penguin.Web.Email.Templating\Penguin.Web.Email.Templating.Local.csproj", "{3A27B963-01A1-4CEC-A6D8-FFDA106A9BD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Templating.Local", "..\Penguin.Web.Templating\Penguin.Web.Templating.Local.csproj", "{8BC793E2-84D9-40F2-97A2-4371E462271E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Templating.Local", "..\Penguin.Web.Templating\Penguin.Web.Templating.Local.csproj", "{8BC793E2-84D9-40F2-97A2-4371E462271E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Errors.Local", "..\Penguin.Cms.Modules.Errors\Penguin.Cms.Modules.Errors.Local.csproj", "{24AC0377-DCF4-45A8-B326-5281B7B8180B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Errors.Local", "..\Penguin.Cms.Modules.Errors\Penguin.Cms.Modules.Errors.Local.csproj", "{24AC0377-DCF4-45A8-B326-5281B7B8180B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Web.Errors.Local", "..\Penguin.Cms.Web.Errors\Penguin.Cms.Web.Errors.Local.csproj", "{EFFEB037-BF43-4E2E-BD93-3E080D0AD08C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Web.Errors.Local", "..\Penguin.Cms.Web.Errors\Penguin.Cms.Web.Errors.Local.csproj", "{EFFEB037-BF43-4E2E-BD93-3E080D0AD08C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Files.Local", "..\Penguin.Cms.Modules.Files\Penguin.Cms.Modules.Files.Local.csproj", "{85AD2132-2280-44A3-AE62-7C3DB000F0E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Files.Local", "..\Penguin.Cms.Modules.Files\Penguin.Cms.Modules.Files.Local.csproj", "{85AD2132-2280-44A3-AE62-7C3DB000F0E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Web.Files.Local", "..\Penguin.Cms.Web.Files\Penguin.Cms.Web.Files.Local.csproj", "{666AE5EC-11B0-4074-90AF-D18D932BEC73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Web.Files.Local", "..\Penguin.Cms.Web.Files\Penguin.Cms.Web.Files.Local.csproj", "{666AE5EC-11B0-4074-90AF-D18D932BEC73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Files.Repositories.Local", "..\Penguin.Cms.Files.Repositories\Penguin.Cms.Files.Repositories.Local.csproj", "{3E06BC91-4C89-46BA-B478-6613803B061D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Files.Repositories.Local", "..\Penguin.Cms.Files.Repositories\Penguin.Cms.Files.Repositories.Local.csproj", "{3E06BC91-4C89-46BA-B478-6613803B061D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Forms.Local", "..\Penguin.Cms.Modules.Forms\Penguin.Cms.Modules.Forms.Local.csproj", "{7157B844-F0CD-4A38-B8E7-B5A968CB33D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Forms.Local", "..\Penguin.Cms.Modules.Forms\Penguin.Cms.Modules.Forms.Local.csproj", "{7157B844-F0CD-4A38-B8E7-B5A968CB33D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Forms.Repositories.Local", "..\Penguin.Cms.Forms.Repositories\Penguin.Cms.Forms.Repositories.Local.csproj", "{21EC61B3-9A42-4211-99B6-082D2A1442A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Forms.Repositories.Local", "..\Penguin.Cms.Forms.Repositories\Penguin.Cms.Forms.Repositories.Local.csproj", "{21EC61B3-9A42-4211-99B6-082D2A1442A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Forms.Local", "..\Penguin.Cms.Forms\Penguin.Cms.Forms.Local.csproj", "{2C292D1B-1344-4EDC-83E2-F1B9D29A2B46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Forms.Local", "..\Penguin.Cms.Forms\Penguin.Cms.Forms.Local.csproj", "{2C292D1B-1344-4EDC-83E2-F1B9D29A2B46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Forms.Abstractions.Local", "..\Penguin.Forms.Abstractions\Penguin.Forms.Abstractions.Local.csproj", "{15B34F96-C908-4242-9966-99E899B1E209}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Forms.Abstractions.Local", "..\Penguin.Forms.Abstractions\Penguin.Forms.Abstractions.Local.csproj", "{15B34F96-C908-4242-9966-99E899B1E209}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Images.Local", "..\Penguin.Cms.Modules.Images\Penguin.Cms.Modules.Images.Local.csproj", "{6B24C9B7-5625-4B94-9234-B310B643106D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Images.Local", "..\Penguin.Cms.Modules.Images\Penguin.Cms.Modules.Images.Local.csproj", "{6B24C9B7-5625-4B94-9234-B310B643106D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Images.Repositories.Local", "..\Penguin.Cms.Images.Repositories\Penguin.Cms.Images.Repositories.Local.csproj", "{CBA619A6-E27A-4655-B557-0A8468BBFE3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Images.Repositories.Local", "..\Penguin.Cms.Images.Repositories\Penguin.Cms.Images.Repositories.Local.csproj", "{CBA619A6-E27A-4655-B557-0A8468BBFE3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Images.Local", "..\Penguin.Cms.Images\Penguin.Cms.Images.Local.csproj", "{2651359C-6483-484D-8B27-9B95F02C857A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Images.Local", "..\Penguin.Cms.Images\Penguin.Cms.Images.Local.csproj", "{2651359C-6483-484D-8B27-9B95F02C857A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Images.Local", "..\Penguin.Images\Penguin.Images.Local.csproj", "{74E00F10-BED7-49BA-82F0-2C7789A80EE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Images.Local", "..\Penguin.Images\Penguin.Images.Local.csproj", "{74E00F10-BED7-49BA-82F0-2C7789A80EE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.InternalMessaging.Local", "..\Penguin.Cms.Modules.InternalMessaging\Penguin.Cms.Modules.InternalMessaging.Local.csproj", "{11B2C234-AB62-4FB3-A135-D02D08D33E63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.InternalMessaging.Local", "..\Penguin.Cms.Modules.InternalMessaging\Penguin.Cms.Modules.InternalMessaging.Local.csproj", "{11B2C234-AB62-4FB3-A135-D02D08D33E63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.InternalMessaging.Local", "..\Penguin.Cms.InternalMessaging\Penguin.Cms.InternalMessaging.Local.csproj", "{88D0E7A8-DFE9-4F81-A4C9-002E5CD59E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.InternalMessaging.Local", "..\Penguin.Cms.InternalMessaging\Penguin.Cms.InternalMessaging.Local.csproj", "{88D0E7A8-DFE9-4F81-A4C9-002E5CD59E75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.InternalMessaging.Repositories.Local", "..\Penguin.Cms.InternalMessaging.Repositories\Penguin.Cms.InternalMessaging.Repositories.Local.csproj", "{FBDAB67B-6C94-4151-AA24-AF96D7D8302C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.InternalMessaging.Repositories.Local", "..\Penguin.Cms.InternalMessaging.Repositories\Penguin.Cms.InternalMessaging.Repositories.Local.csproj", "{FBDAB67B-6C94-4151-AA24-AF96D7D8302C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Security.Local", "..\Penguin.Cms.Security\Penguin.Cms.Security.Local.csproj", "{482CBD53-C524-4B14-819B-10BD5EABC89A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Security.Local", "..\Penguin.Cms.Security\Penguin.Cms.Security.Local.csproj", "{482CBD53-C524-4B14-819B-10BD5EABC89A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Security.Repositories.Local", "..\Penguin.Cms.Security.Repositories\Penguin.Cms.Security.Repositories.Local.csproj", "{B0D27FA2-8214-40FC-A46A-94A2F9217675}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Security.Repositories.Local", "..\Penguin.Cms.Security.Repositories\Penguin.Cms.Security.Repositories.Local.csproj", "{B0D27FA2-8214-40FC-A46A-94A2F9217675}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Navigation.Local", "..\Penguin.Cms.Modules.Navigation\Penguin.Cms.Modules.Navigation.Local.csproj", "{B7929B60-D883-4E94-A010-966ADF82A0B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Navigation.Local", "..\Penguin.Cms.Modules.Navigation\Penguin.Cms.Modules.Navigation.Local.csproj", "{B7929B60-D883-4E94-A010-966ADF82A0B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Navigation.Repositories.Local", "..\Penguin.Cms.Navigation.Repositories\Penguin.Cms.Navigation.Repositories.Local.csproj", "{C48A53F1-A0C0-4B11-B177-1BC4473C7737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Navigation.Repositories.Local", "..\Penguin.Cms.Navigation.Repositories\Penguin.Cms.Navigation.Repositories.Local.csproj", "{C48A53F1-A0C0-4B11-B177-1BC4473C7737}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Navigation.Local", "..\Penguin.Cms.Navigation\Penguin.Cms.Navigation.Local.csproj", "{3ACAE7C5-47FB-431F-AB92-153C933663FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Navigation.Local", "..\Penguin.Cms.Navigation\Penguin.Cms.Navigation.Local.csproj", "{3ACAE7C5-47FB-431F-AB92-153C933663FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Pages.Local", "..\Penguin.Cms.Modules.Pages\Penguin.Cms.Modules.Pages.Local.csproj", "{991470C4-ED71-49F9-8BCD-FEEC72728A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Pages.Local", "..\Penguin.Cms.Modules.Pages\Penguin.Cms.Modules.Pages.Local.csproj", "{991470C4-ED71-49F9-8BCD-FEEC72728A35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Web.Pages.Local", "..\Penguin.Cms.Web.Pages\Penguin.Cms.Web.Pages.Local.csproj", "{1BC2B173-8502-4FFD-B305-6E52AB0122BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Web.Pages.Local", "..\Penguin.Cms.Web.Pages\Penguin.Cms.Web.Pages.Local.csproj", "{1BC2B173-8502-4FFD-B305-6E52AB0122BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Pages.Local", "..\Penguin.Cms.Pages\Penguin.Cms.Pages.Local.csproj", "{7723F1EA-75C8-4363-82C5-18477892733E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Pages.Local", "..\Penguin.Cms.Pages\Penguin.Cms.Pages.Local.csproj", "{7723F1EA-75C8-4363-82C5-18477892733E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Pages.Repositories.Local", "..\Penguin.Cms.Pages.Repositories\Penguin.Cms.Pages.Repositories.Local.csproj", "{D5001E9F-8B5F-46EC-94EE-1A98C831E5FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Pages.Repositories.Local", "..\Penguin.Cms.Pages.Repositories\Penguin.Cms.Pages.Repositories.Local.csproj", "{D5001E9F-8B5F-46EC-94EE-1A98C831E5FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Reporting.Local", "..\Penguin.Cms.Modules.Reporting\Penguin.Cms.Modules.Reporting.Local.csproj", "{725C7543-834A-48F9-B7B0-85BB78590EDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Reporting.Local", "..\Penguin.Cms.Modules.Reporting\Penguin.Cms.Modules.Reporting.Local.csproj", "{725C7543-834A-48F9-B7B0-85BB78590EDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Reporting.Local", "..\Penguin.Cms.Reporting\Penguin.Cms.Reporting.Local.csproj", "{4C9A9560-6E29-45E3-BCB7-01FC42A7B8C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Reporting.Local", "..\Penguin.Cms.Reporting\Penguin.Cms.Reporting.Local.csproj", "{4C9A9560-6E29-45E3-BCB7-01FC42A7B8C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.Database.Serialization.Extensions.Local", "..\Penguin.Persistence.Database.Serialization.Extensions\Penguin.Persistence.Database.Serialization.Extensions.Local.csproj", "{A85710C7-8E9F-47FF-8E4F-4CC97531747B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.Database.Serialization.Extensions.Local", "..\Penguin.Persistence.Database.Serialization.Extensions\Penguin.Persistence.Database.Serialization.Extensions.Local.csproj", "{A85710C7-8E9F-47FF-8E4F-4CC97531747B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Dynamic.Local", "..\Penguin.Reflection.Dynamic\Penguin.Reflection.Dynamic.Local.csproj", "{6C6C4140-20AA-4E75-9615-01EBB187B489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Dynamic.Local", "..\Penguin.Reflection.Dynamic\Penguin.Reflection.Dynamic.Local.csproj", "{6C6C4140-20AA-4E75-9615-01EBB187B489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Security.Local", "..\Penguin.Cms.Modules.Security\Penguin.Cms.Modules.Security.Local.csproj", "{C3FFB903-EE50-4CB5-8709-4C8767718288}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Security.Local", "..\Penguin.Cms.Modules.Security\Penguin.Cms.Modules.Security.Local.csproj", "{C3FFB903-EE50-4CB5-8709-4C8767718288}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Authentication.OWA.Local", "..\Penguin.Authentication.OWA\Penguin.Authentication.OWA.Local.csproj", "{E1C7F837-1EE2-407C-B115-30B6C18C6608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Authentication.OWA.Local", "..\Penguin.Authentication.OWA\Penguin.Authentication.OWA.Local.csproj", "{E1C7F837-1EE2-407C-B115-30B6C18C6608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Web.Security.Local", "..\Penguin.Cms.Web.Security\Penguin.Cms.Web.Security.Local.csproj", "{DAB6C441-0A18-40C7-9CE2-85247294D7B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Web.Security.Local", "..\Penguin.Cms.Web.Security\Penguin.Cms.Web.Security.Local.csproj", "{DAB6C441-0A18-40C7-9CE2-85247294D7B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Extensions.Local", "..\Penguin.Web.Extensions\Penguin.Web.Extensions.Local.csproj", "{B6DC0225-6D9F-4865-BDDC-7CAF0492DEF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Extensions.Local", "..\Penguin.Web.Extensions\Penguin.Web.Extensions.Local.csproj", "{B6DC0225-6D9F-4865-BDDC-7CAF0492DEF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Security.Local", "..\Penguin.Security\Penguin.Security.Local.csproj", "{50FBA86D-E27F-4F69-A318-5170619944CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Security.Local", "..\Penguin.Security\Penguin.Security.Local.csproj", "{50FBA86D-E27F-4F69-A318-5170619944CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Configuration.Local", "..\Penguin.Web.Configuration\Penguin.Web.Configuration.Local.csproj", "{3F33236F-48BC-45E1-ABBC-4A64B14E0B96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Configuration.Local", "..\Penguin.Web.Configuration\Penguin.Web.Configuration.Local.csproj", "{3F33236F-48BC-45E1-ABBC-4A64B14E0B96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Configuration.Local", "..\Penguin.Cms.Modules.Configuration\Penguin.Cms.Modules.Configuration.Local.csproj", "{8D80D30E-CEB5-4B04-B722-2A579B1D0C3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Configuration.Local", "..\Penguin.Cms.Modules.Configuration\Penguin.Cms.Modules.Configuration.Local.csproj", "{8D80D30E-CEB5-4B04-B722-2A579B1D0C3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Configuration.Local", "..\Penguin.Cms.Configuration\Penguin.Cms.Configuration.Local.csproj", "{D59C3663-AA9C-4E5C-81E0-1FD34002C38A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Configuration.Local", "..\Penguin.Cms.Configuration\Penguin.Cms.Configuration.Local.csproj", "{D59C3663-AA9C-4E5C-81E0-1FD34002C38A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9428C3C3-22F0-419A-AD66-0CD6243D2BE8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,9 +228,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C325CA20-E6AA-4120-9E3E-CF90DA96CE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -1500,5 +1502,11 @@ Global
 		{D59C3663-AA9C-4E5C-81E0-1FD34002C38A}.Release|x64.Build.0 = Release|Any CPU
 		{D59C3663-AA9C-4E5C-81E0-1FD34002C38A}.Release|x86.ActiveCfg = Release|Any CPU
 		{D59C3663-AA9C-4E5C-81E0-1FD34002C38A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {709F78C7-B994-4C7F-9FA7-57E6F494CFE1}
 	EndGlobalSection
 EndGlobal

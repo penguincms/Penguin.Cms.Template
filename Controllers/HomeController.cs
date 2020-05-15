@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using Penguin.Cms.Template.Models;
 using System.Diagnostics;
 
@@ -7,7 +6,6 @@ namespace Penguin.Cms.Template.Controllers
 {
     public class HomeController : Controller
     {
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -2,3 +2,6 @@
 
 # CS8610: Nullability of reference types in type of parameter doesn't match overridden member.
 dotnet_diagnostic.CS8610.severity = silent
+
+# AD0001: Analyzer Failure
+dotnet_diagnostic.AD0001.severity = silent

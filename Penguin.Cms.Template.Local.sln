@@ -1,244 +1,691 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Template.Local", "Penguin.Cms.Template.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Template.Local", "Penguin.Cms.Template.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Local", "..\Penguin.Cms\Penguin.Cms.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Local", "..\Penguin.Cms\Penguin.Cms.Local.csproj", "{A0C9A4DD-6668-458B-92D9-45D12ACC4BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.DependencyInjection.Local", "..\Penguin.Persistence.DependencyInjection\Penguin.Persistence.DependencyInjection.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.DependencyInjection.Local", "..\Penguin.Persistence.DependencyInjection\Penguin.Persistence.DependencyInjection.Local.csproj", "{FD1C64A3-B175-47F8-BB99-2D4F9576C33D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.DependencyInjection.Abstractions.Local", "..\Penguin.DependencyInjection.Abstractions\Penguin.DependencyInjection.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.DependencyInjection.Abstractions.Local", "..\Penguin.DependencyInjection.Abstractions\Penguin.DependencyInjection.Abstractions.Local.csproj", "{AE93C1B1-C90C-41C3-BB29-46A46D9CEBE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Configuration.Abstractions.Local", "..\Penguin.Configuration.Abstractions\Penguin.Configuration.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Configuration.Abstractions.Local", "..\Penguin.Configuration.Abstractions\Penguin.Configuration.Abstractions.Local.csproj", "{55AC49DC-8BAF-493B-872B-1B94446223B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Extensions.String.Local", "..\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Extensions.String.Local", "..\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj", "{20274FD0-3AF9-47B4-BE36-31EC81E993FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Debugging.Local", "..\Penguin.Debugging\Penguin.Debugging.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Debugging.Local", "..\Penguin.Debugging\Penguin.Debugging.Local.csproj", "{6426F190-DA16-47D2-82B5-62D1EFC69F3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Extensions.Exceptions.Local", "..\Penguin.Extensions.Exceptions\Penguin.Extensions.Exceptions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Extensions.Exceptions.Local", "..\Penguin.Extensions.Exceptions\Penguin.Extensions.Exceptions.Local.csproj", "{5A401D67-A6DD-4EB6-8F55-AFD2461684FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.FileStreams.Local", "..\Penguin.FileStreams\Penguin.FileStreams.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.FileStreams.Local", "..\Penguin.FileStreams\Penguin.FileStreams.Local.csproj", "{E2C5FCBD-689D-4AE3-A9A5-C4C037DDF5B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.Abstractions.Local", "..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.Abstractions.Local", "..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.Local.csproj", "{B645A2EA-216B-491D-9D5A-4382AB6B641A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Entities.Abstractions.Local", "..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Entities.Abstractions.Local", "..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.Local.csproj", "{BFC305D1-0376-463C-8144-3979FBC32365}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Extensions.Local", "..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Extensions.Local", "..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.Local.csproj", "{C8785B9D-5C02-4A48-9D1D-56B8935058E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Abstractions.Local", "..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Abstractions.Local", "..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.Local.csproj", "{93D21A2A-1096-4DBE-88A8-487A8E2B4BAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Core.Local", "..\Penguin.Cms.Core\Penguin.Cms.Core.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Core.Local", "..\Penguin.Cms.Core\Penguin.Cms.Core.Local.csproj", "{E5CAEA55-3E11-4B46-89C3-E17FD9CAC93E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Local", "..\Penguin.Reflection\Penguin.Reflection.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Local", "..\Penguin.Reflection\Penguin.Reflection.Local.csproj", "{B319A1D6-6A6C-4FFC-B4A0-8C5088E2A538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Abstractions.Local", "..\Penguin.Cms.Abstractions\Penguin.Cms.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Abstractions.Local", "..\Penguin.Cms.Abstractions\Penguin.Cms.Abstractions.Local.csproj", "{964C2080-955E-451A-9E27-1A5CDDAC764E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Macros.Local", "..\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Macros.Local", "..\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj", "{AA50A0F3-A094-45CC-9BA0-F25AB434AF7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.EntityFramework.Local", "..\Penguin.Persistence.EntityFramework\Penguin.Persistence.EntityFramework.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.EntityFramework.Local", "..\Penguin.Persistence.EntityFramework\Penguin.Persistence.EntityFramework.Local.csproj", "{CEBA1A98-8808-423E-B7D1-C700C4B056F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Entities.Local", "..\Penguin.Cms.Entities\Penguin.Cms.Entities.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Entities.Local", "..\Penguin.Cms.Entities\Penguin.Cms.Entities.Local.csproj", "{35771D78-6962-4000-A5E6-8D2039D57D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.Repositories.EntityFramework.Local", "..\Penguin.Persistence.Repositories.EntityFramework\Penguin.Persistence.Repositories.EntityFramework.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.Repositories.EntityFramework.Local", "..\Penguin.Persistence.Repositories.EntityFramework\Penguin.Persistence.Repositories.EntityFramework.Local.csproj", "{B2F03003-1C25-4105-A191-A7FF792F966E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Messaging.Persistence.Local", "..\Penguin.Messaging.Persistence\Penguin.Messaging.Persistence.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Messaging.Persistence.Local", "..\Penguin.Messaging.Persistence\Penguin.Messaging.Persistence.Local.csproj", "{09497E2A-42D1-4AD7-9549-971799E01005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Messaging.Abstractions.Local", "..\Penguin.Messaging.Abstractions\Penguin.Messaging.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Messaging.Abstractions.Local", "..\Penguin.Messaging.Abstractions\Penguin.Messaging.Abstractions.Local.csproj", "{640CCD12-EF99-4819-9AC2-EE49DE9D5EBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Messaging.Logging.Local", "..\Penguin.Messaging.Logging\Penguin.Messaging.Logging.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Messaging.Logging.Local", "..\Penguin.Messaging.Logging\Penguin.Messaging.Logging.Local.csproj", "{876AB4A3-19EC-4F4C-9882-623F53622F1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Messaging.Core.Local", "..\Penguin.Messaging.Core\Penguin.Messaging.Core.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Messaging.Core.Local", "..\Penguin.Messaging.Core\Penguin.Messaging.Core.Local.csproj", "{0E2C5E17-F808-4295-92B8-E200B186FD24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Extensions.Collections.Local", "..\Penguin.Extensions.Collections\Penguin.Extensions.Collections.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Extensions.Collections.Local", "..\Penguin.Extensions.Collections\Penguin.Extensions.Collections.Local.csproj", "{3A6BB533-13A9-441B-9668-70A8354A3C27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.InternalMessaging.Local", "..\Penguin.Cms.Modules.InternalMessaging\Penguin.Cms.Modules.InternalMessaging.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.InternalMessaging.Local", "..\Penguin.Cms.Modules.InternalMessaging\Penguin.Cms.Modules.InternalMessaging.Local.csproj", "{97799268-0C45-4023-AAAE-3855C4DCDDC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Web.Local", "..\Penguin.Cms.Web\Penguin.Cms.Web.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Web.Local", "..\Penguin.Cms.Web\Penguin.Cms.Web.Local.csproj", "{3BD8B534-1D3E-4B4D-98F1-5B00047A60DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Mvc.Local", "..\Penguin.Web.Mvc\Penguin.Web.Mvc.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Mvc.Local", "..\Penguin.Web.Mvc\Penguin.Web.Mvc.Local.csproj", "{ED961B2D-EEED-4AA9-BBC5-B79B2D3B65FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Mvc.Abstractions.Local", "..\Penguin.Web.Mvc.Abstractions\Penguin.Web.Mvc.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Mvc.Abstractions.Local", "..\Penguin.Web.Mvc.Abstractions\Penguin.Web.Mvc.Abstractions.Local.csproj", "{72D483CB-AD5A-4428-A7BA-636D31608FBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Templating.Abstractions.Local", "..\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Templating.Abstractions.Local", "..\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.Local.csproj", "{30C69C46-40BD-4934-AB51-A1556973683D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Abstractions.Local", "..\Penguin.Web.Abstractions\Penguin.Web.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Abstractions.Local", "..\Penguin.Web.Abstractions\Penguin.Web.Abstractions.Local.csproj", "{8DFA0A78-3DBF-4C5D-BADA-949907076E3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Configuration.Local", "..\Penguin.Configuration\Penguin.Configuration.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Configuration.Local", "..\Penguin.Configuration\Penguin.Configuration.Local.csproj", "{644CFDF3-A22E-49AD-AD89-7E70B3122712}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Messaging.Application.Local", "..\Penguin.Messaging.Application\Penguin.Messaging.Application.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Messaging.Application.Local", "..\Penguin.Messaging.Application\Penguin.Messaging.Application.Local.csproj", "{CA486EAF-8457-4D7D-96C8-CFF235AA0668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Testing.Local", "..\Penguin.Testing\Penguin.Testing.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Testing.Local", "..\Penguin.Testing\Penguin.Testing.Local.csproj", "{5B68E0AB-6CFD-4A53-AE65-86BEFFA0CF4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Errors.Local", "..\Penguin.Web.Errors\Penguin.Web.Errors.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Errors.Local", "..\Penguin.Web.Errors\Penguin.Web.Errors.Local.csproj", "{197FCD18-0777-4CE9-AC66-9F099FFE3AB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Files.Local", "..\Penguin.Files\Penguin.Files.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Files.Local", "..\Penguin.Files\Penguin.Files.Local.csproj", "{4E834068-6D11-47CC-9E40-C72AF640F3E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Files.Abstractions.Local", "..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Files.Abstractions.Local", "..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj", "{51BFE035-8813-4B82-8FD7-2BAD9404C3B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Security.Abstractions.Local", "..\Penguin.Security.Abstractions\Penguin.Security.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Security.Abstractions.Local", "..\Penguin.Security.Abstractions\Penguin.Security.Abstractions.Local.csproj", "{B1A6BD1C-399B-4C03-B8A1-9817EBC903E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.DependencyInjection.Local", "..\Penguin.Web.DependencyInjection\Penguin.Web.DependencyInjection.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.DependencyInjection.Local", "..\Penguin.Web.DependencyInjection\Penguin.Web.DependencyInjection.Local.csproj", "{FAA73BE4-5846-4677-8F06-9E46AE4F85F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Testing.Local", "..\Penguin.Web.Testing\Penguin.Web.Testing.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Testing.Local", "..\Penguin.Web.Testing\Penguin.Web.Testing.Local.csproj", "{F545C7D2-949E-4CAE-BC48-9D75B62263F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.DependencyInjection.Local", "..\Penguin.DependencyInjection\Penguin.DependencyInjection.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.DependencyInjection.Local", "..\Penguin.DependencyInjection\Penguin.DependencyInjection.Local.csproj", "{5EFCD466-ADBC-4641-8CEE-77C02A9E3786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.Repositories.Local", "..\Penguin.Persistence.Repositories\Penguin.Persistence.Repositories.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.Repositories.Local", "..\Penguin.Persistence.Repositories\Penguin.Persistence.Repositories.Local.csproj", "{C5FBF444-4C25-4304-8862-CE6DE6803B1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Serialization.Extensions.Local", "..\Penguin.Reflection.Serialization.Extensions\Penguin.Reflection.Serialization.Extensions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Serialization.Extensions.Local", "..\Penguin.Reflection.Serialization.Extensions\Penguin.Reflection.Serialization.Extensions.Local.csproj", "{B745B1E8-08CB-4E00-ADB3-9604F37D77EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Serialization.Local", "..\Penguin.Reflection.Serialization\Penguin.Reflection.Serialization.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Serialization.Local", "..\Penguin.Reflection.Serialization\Penguin.Reflection.Serialization.Local.csproj", "{BAF170FB-F3B2-4A4D-8AC5-ACD5A38AD60D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Serialization.Abstractions.Local", "..\Penguin.Reflection.Serialization.Abstractions\Penguin.Reflection.Serialization.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Serialization.Abstractions.Local", "..\Penguin.Reflection.Serialization.Abstractions\Penguin.Reflection.Serialization.Abstractions.Local.csproj", "{42203DBE-28F4-4A12-A082-BC64B9037B82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.Database.Local", "..\Penguin.Persistence.Database\Penguin.Persistence.Database.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.Database.Local", "..\Penguin.Persistence.Database\Penguin.Persistence.Database.Local.csproj", "{F344769E-67E0-4556-B875-C6C09EE375D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Threading.BackgroundWorker.Local", "..\Penguin.Threading.BackgroundWorker\Penguin.Threading.BackgroundWorker.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Threading.BackgroundWorker.Local", "..\Penguin.Threading.BackgroundWorker\Penguin.Threading.BackgroundWorker.Local.csproj", "{32CC93A7-E354-42A4-BFC6-5437E37B15C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.InternalMessaging.Repositories.Local", "..\Penguin.Cms.InternalMessaging.Repositories\Penguin.Cms.InternalMessaging.Repositories.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.InternalMessaging.Repositories.Local", "..\Penguin.Cms.InternalMessaging.Repositories\Penguin.Cms.InternalMessaging.Repositories.Local.csproj", "{CC6FFF69-DF99-4CE3-8007-D9EBE878FB3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Security.Repositories.Local", "..\Penguin.Cms.Security.Repositories\Penguin.Cms.Security.Repositories.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Security.Repositories.Local", "..\Penguin.Cms.Security.Repositories\Penguin.Cms.Security.Repositories.Local.csproj", "{A809F687-23C1-4A76-AE38-8C4886B7E792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Repositories.Local", "..\Penguin.Cms.Repositories\Penguin.Cms.Repositories.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Repositories.Local", "..\Penguin.Cms.Repositories\Penguin.Cms.Repositories.Local.csproj", "{B4CB07FD-DFBA-46E4-8BD4-137D5EF62A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Security.Local", "..\Penguin.Cms.Security\Penguin.Cms.Security.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Security.Local", "..\Penguin.Cms.Security\Penguin.Cms.Security.Local.csproj", "{C654EAD6-42C2-4AD6-BDAA-7E2E114F2AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Auditing.Abstractions.Local", "..\Penguin.Auditing.Abstractions\Penguin.Auditing.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Auditing.Abstractions.Local", "..\Penguin.Auditing.Abstractions\Penguin.Auditing.Abstractions.Local.csproj", "{1A28B689-DD90-4316-834A-C42F83823FB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Email.Templating.Abstractions.Local", "..\Penguin.Email.Templating.Abstractions\Penguin.Email.Templating.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Email.Templating.Abstractions.Local", "..\Penguin.Email.Templating.Abstractions\Penguin.Email.Templating.Abstractions.Local.csproj", "{AB6B47B2-FFD2-4F28-A16E-A3C4A9075C57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Email.Abstractions.Local", "..\Penguin.Email.Abstractions\Penguin.Email.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Email.Abstractions.Local", "..\Penguin.Email.Abstractions\Penguin.Email.Abstractions.Local.csproj", "{8FAA727B-2C84-4638-8C15-83827DE9E713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Email.Abstractions.Local", "..\Penguin.Cms.Email.Abstractions\Penguin.Cms.Email.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Email.Abstractions.Local", "..\Penguin.Cms.Email.Abstractions\Penguin.Cms.Email.Abstractions.Local.csproj", "{178817D1-AABF-45BE-99BF-DE63D14D2D5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.InternalMessaging.Local", "..\Penguin.Cms.InternalMessaging\Penguin.Cms.InternalMessaging.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.InternalMessaging.Local", "..\Penguin.Cms.InternalMessaging\Penguin.Cms.InternalMessaging.Local.csproj", "{30A8F8C4-45FE-45F9-BB22-7DADFC380604}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Shared.Objects.Local", "..\Penguin.Shared.Objects\Penguin.Shared.Objects.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Shared.Objects.Local", "..\Penguin.Shared.Objects\Penguin.Shared.Objects.Local.csproj", "{522CAD0B-85A6-4687-A9D5-11B6ED1F27C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Errors.Local", "..\Penguin.Cms.Modules.Errors\Penguin.Cms.Modules.Errors.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Errors.Local", "..\Penguin.Cms.Modules.Errors\Penguin.Cms.Modules.Errors.Local.csproj", "{9E7FF303-97F4-4AEE-A305-20187EF122AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Web.Errors.Local", "..\Penguin.Cms.Web.Errors\Penguin.Cms.Web.Errors.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Web.Errors.Local", "..\Penguin.Cms.Web.Errors\Penguin.Cms.Web.Errors.Local.csproj", "{1885B639-70C4-4AE9-9C7E-0057E2340097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Errors.Local", "..\Penguin.Cms.Errors\Penguin.Cms.Errors.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Errors.Local", "..\Penguin.Cms.Errors\Penguin.Cms.Errors.Local.csproj", "{E9672D1B-5C36-481C-A32F-9F210FFB26E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Dynamic.Local", "..\Penguin.Cms.Modules.Dynamic\Penguin.Cms.Modules.Dynamic.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Dynamic.Local", "..\Penguin.Cms.Modules.Dynamic\Penguin.Cms.Modules.Dynamic.Local.csproj", "{23FEF9E0-FD48-4877-8D52-BB8C00C5FE0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Dynamic.Local", "..\Penguin.Web.Dynamic\Penguin.Web.Dynamic.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Dynamic.Local", "..\Penguin.Web.Dynamic\Penguin.Web.Dynamic.Local.csproj", "{D5A356E8-53E0-4E81-9593-A0B960FA16A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Admin.Local", "..\Penguin.Cms.Modules.Admin\Penguin.Cms.Modules.Admin.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Admin.Local", "..\Penguin.Cms.Modules.Admin\Penguin.Cms.Modules.Admin.Local.csproj", "{B4803AE2-9D8A-493F-BF7C-A5B77678DC48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Security.Local", "..\Penguin.Web.Security\Penguin.Web.Security.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Security.Local", "..\Penguin.Web.Security\Penguin.Web.Security.Local.csproj", "{2698022E-1B3E-4BED-A9E9-E6F35C4AFCC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Core.Local", "..\Penguin.Cms.Modules.Core\Penguin.Cms.Modules.Core.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Core.Local", "..\Penguin.Cms.Modules.Core\Penguin.Cms.Modules.Core.Local.csproj", "{59A81CAB-8C2D-4083-9CD5-C55864C2E5D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Navigation.Abstractions.Local", "..\Penguin.Navigation.Abstractions\Penguin.Navigation.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Navigation.Abstractions.Local", "..\Penguin.Navigation.Abstractions\Penguin.Navigation.Abstractions.Local.csproj", "{0F13D9CE-20FF-46E8-A5AE-BE6B6CC0140C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Json.Local", "..\Penguin.Json\Penguin.Json.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Json.Local", "..\Penguin.Json\Penguin.Json.Local.csproj", "{58EC29C9-E998-4D62-8D43-4AA9E5FBD758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.SystemExtensions.Abstractions.Local", "..\Penguin.SystemExtensions.Abstractions\Penguin.SystemExtensions.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.SystemExtensions.Abstractions.Local", "..\Penguin.SystemExtensions.Abstractions\Penguin.SystemExtensions.Abstractions.Local.csproj", "{98E6A5AE-E819-4995-B728-788A99105A92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Json.Abstractions.Local", "..\Penguin.Json.Abstractions\Penguin.Json.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Json.Abstractions.Local", "..\Penguin.Json.Abstractions\Penguin.Json.Abstractions.Local.csproj", "{5279FA59-8BEE-4597-A483-12B67257B36E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Forms.Local", "..\Penguin.Cms.Modules.Forms\Penguin.Cms.Modules.Forms.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Forms.Local", "..\Penguin.Cms.Modules.Forms\Penguin.Cms.Modules.Forms.Local.csproj", "{E28BE5E3-0C66-465E-9F9A-85DD5FDA13C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Forms.Repositories.Local", "..\Penguin.Cms.Forms.Repositories\Penguin.Cms.Forms.Repositories.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Forms.Repositories.Local", "..\Penguin.Cms.Forms.Repositories\Penguin.Cms.Forms.Repositories.Local.csproj", "{9B216240-FA38-48AF-B2B6-AA44566C0239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Forms.Local", "..\Penguin.Cms.Forms\Penguin.Cms.Forms.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Forms.Local", "..\Penguin.Cms.Forms\Penguin.Cms.Forms.Local.csproj", "{0AE288E0-7616-408E-B86B-ACAC4FEA10CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Forms.Abstractions.Local", "..\Penguin.Forms.Abstractions\Penguin.Forms.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Forms.Abstractions.Local", "..\Penguin.Forms.Abstractions\Penguin.Forms.Abstractions.Local.csproj", "{04CC8655-D076-44C4-8C86-D1169F730548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Images.Local", "..\Penguin.Cms.Modules.Images\Penguin.Cms.Modules.Images.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Images.Local", "..\Penguin.Cms.Modules.Images\Penguin.Cms.Modules.Images.Local.csproj", "{34463A02-2779-4CAB-BCBE-08998374C597}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Files.Local", "..\Penguin.Cms.Files\Penguin.Cms.Files.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Files.Local", "..\Penguin.Cms.Files\Penguin.Cms.Files.Local.csproj", "{60E20F02-6791-4F12-93AA-BA5632049F81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Images.Repositories.Local", "..\Penguin.Cms.Images.Repositories\Penguin.Cms.Images.Repositories.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Images.Repositories.Local", "..\Penguin.Cms.Images.Repositories\Penguin.Cms.Images.Repositories.Local.csproj", "{EE091FD9-1A26-445F-8D25-8A4CA258AC70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Images.Local", "..\Penguin.Cms.Images\Penguin.Cms.Images.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Images.Local", "..\Penguin.Cms.Images\Penguin.Cms.Images.Local.csproj", "{613B27D0-2A93-47FC-9A07-50B614EA33E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Images.Local", "..\Penguin.Images\Penguin.Images.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Images.Local", "..\Penguin.Images\Penguin.Images.Local.csproj", "{55F8724C-3C78-4D40-9407-2EB2F4B6AF9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Data.Local", "..\Penguin.Web.Data\Penguin.Web.Data.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Data.Local", "..\Penguin.Web.Data\Penguin.Web.Data.Local.csproj", "{3A459EEB-2018-46CC-9EB1-26BB87DCD36A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Pages.Local", "..\Penguin.Cms.Modules.Pages\Penguin.Cms.Modules.Pages.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Pages.Local", "..\Penguin.Cms.Modules.Pages\Penguin.Cms.Modules.Pages.Local.csproj", "{03612EC9-F552-406C-9BB7-E66D271E1337}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Web.Pages.Local", "..\Penguin.Cms.Web.Pages\Penguin.Cms.Web.Pages.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Web.Pages.Local", "..\Penguin.Cms.Web.Pages\Penguin.Cms.Web.Pages.Local.csproj", "{31B6AB97-C410-48E8-9791-7C3E669A91D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Templating.Local", "..\Penguin.Web.Templating\Penguin.Web.Templating.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Templating.Local", "..\Penguin.Web.Templating\Penguin.Web.Templating.Local.csproj", "{9742336B-54E1-4719-8E0C-0E3DC3D9BC7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Pages.Repositories.Local", "..\Penguin.Cms.Pages.Repositories\Penguin.Cms.Pages.Repositories.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Pages.Repositories.Local", "..\Penguin.Cms.Pages.Repositories\Penguin.Cms.Pages.Repositories.Local.csproj", "{0032220F-9024-425F-A8C1-28F36596218E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Pages.Local", "..\Penguin.Cms.Pages\Penguin.Cms.Pages.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Pages.Local", "..\Penguin.Cms.Pages\Penguin.Cms.Pages.Local.csproj", "{C0FC75EE-F3ED-4E66-9684-F02CC892710C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Navigation.Local", "..\Penguin.Cms.Modules.Navigation\Penguin.Cms.Modules.Navigation.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Navigation.Local", "..\Penguin.Cms.Modules.Navigation\Penguin.Cms.Modules.Navigation.Local.csproj", "{E839A6CC-35D0-4780-9CA0-C5829CDE6666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Navigation.Repositories.Local", "..\Penguin.Cms.Navigation.Repositories\Penguin.Cms.Navigation.Repositories.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Navigation.Repositories.Local", "..\Penguin.Cms.Navigation.Repositories\Penguin.Cms.Navigation.Repositories.Local.csproj", "{0C1E49F9-6CC9-4690-AD4F-7B77369FD01D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Navigation.Local", "..\Penguin.Cms.Navigation\Penguin.Cms.Navigation.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Navigation.Local", "..\Penguin.Cms.Navigation\Penguin.Cms.Navigation.Local.csproj", "{87B91D48-EB62-40B2-9274-71D708521432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Configuration.Local", "..\Penguin.Cms.Modules.Configuration\Penguin.Cms.Modules.Configuration.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Configuration.Local", "..\Penguin.Cms.Modules.Configuration\Penguin.Cms.Modules.Configuration.Local.csproj", "{12DACDEC-4631-4626-BBD9-88F0E6E2CA0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Configuration.Local", "..\Penguin.Cms.Configuration\Penguin.Cms.Configuration.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Configuration.Local", "..\Penguin.Cms.Configuration\Penguin.Cms.Configuration.Local.csproj", "{2027554F-2A9B-4986-8B51-0814ED6AA4C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Reporting.Local", "..\Penguin.Cms.Modules.Reporting\Penguin.Cms.Modules.Reporting.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Reporting.Local", "..\Penguin.Cms.Modules.Reporting\Penguin.Cms.Modules.Reporting.Local.csproj", "{2187AAD8-84A5-4D0B-BCAC-93DD943A6A48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Reflection.Dynamic.Local", "..\Penguin.Reflection.Dynamic\Penguin.Reflection.Dynamic.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Reflection.Dynamic.Local", "..\Penguin.Reflection.Dynamic\Penguin.Reflection.Dynamic.Local.csproj", "{CBC4E40F-5286-4D37-ADBB-DA6B0141C9E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Reporting.Local", "..\Penguin.Cms.Reporting\Penguin.Cms.Reporting.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Reporting.Local", "..\Penguin.Cms.Reporting\Penguin.Cms.Reporting.Local.csproj", "{154954EA-08BA-40C2-B13D-0FC49265E64C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Persistence.Database.Serialization.Extensions.Local", "..\Penguin.Persistence.Database.Serialization.Extensions\Penguin.Persistence.Database.Serialization.Extensions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Persistence.Database.Serialization.Extensions.Local", "..\Penguin.Persistence.Database.Serialization.Extensions\Penguin.Persistence.Database.Serialization.Extensions.Local.csproj", "{0EDDA8B3-BF4D-40A6-9415-E139086CBE81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Email.Local", "..\Penguin.Cms.Modules.Email\Penguin.Cms.Modules.Email.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Email.Local", "..\Penguin.Cms.Modules.Email\Penguin.Cms.Modules.Email.Local.csproj", "{2D83B288-DBB8-4236-BEE2-0C822DBE2FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Email.Templating.Local", "..\Penguin.Web.Email.Templating\Penguin.Web.Email.Templating.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Email.Templating.Local", "..\Penguin.Web.Email.Templating\Penguin.Web.Email.Templating.Local.csproj", "{A07C69AE-85E0-4467-9765-925F6C987CE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Email.DependencyInjection.Local", "..\Penguin.Cms.Email.DependencyInjection\Penguin.Cms.Email.DependencyInjection.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Email.DependencyInjection.Local", "..\Penguin.Cms.Email.DependencyInjection\Penguin.Cms.Email.DependencyInjection.Local.csproj", "{41FD3679-1220-4FA5-8B9E-CDB9A47D8ED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Email.Templating.Local", "..\Penguin.Email.Templating\Penguin.Email.Templating.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Email.Templating.Local", "..\Penguin.Email.Templating\Penguin.Email.Templating.Local.csproj", "{189B8BCC-2175-4BE7-9F1F-26D6D40DF16F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Email.Templating.Repositories.Local", "..\Penguin.Cms.Email.Templating.Repositories\Penguin.Cms.Email.Templating.Repositories.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Email.Templating.Repositories.Local", "..\Penguin.Cms.Email.Templating.Repositories\Penguin.Cms.Email.Templating.Repositories.Local.csproj", "{CE705628-D059-45C6-A538-D4E4865CE079}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Email.Templating.Local", "..\Penguin.Cms.Email.Templating\Penguin.Cms.Email.Templating.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Email.Templating.Local", "..\Penguin.Cms.Email.Templating\Penguin.Cms.Email.Templating.Local.csproj", "{4F79C6F5-7C55-49E9-89C7-4FFD400FBC66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Email.Local", "..\Penguin.Cms.Email\Penguin.Cms.Email.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Email.Local", "..\Penguin.Cms.Email\Penguin.Cms.Email.Local.csproj", "{FABD9414-97F5-486E-9C9A-F472969B6C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Email.Local", "..\Penguin.Email\Penguin.Email.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Email.Local", "..\Penguin.Email\Penguin.Email.Local.csproj", "{9FB4B1CD-B253-4410-A211-C5E47626B696}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Files.Local", "..\Penguin.Cms.Modules.Files\Penguin.Cms.Modules.Files.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Files.Local", "..\Penguin.Cms.Modules.Files\Penguin.Cms.Modules.Files.Local.csproj", "{4A0D2FAA-2EDE-4023-AC7D-533AB647CFAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Web.Files.Local", "..\Penguin.Cms.Web.Files\Penguin.Cms.Web.Files.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Web.Files.Local", "..\Penguin.Cms.Web.Files\Penguin.Cms.Web.Files.Local.csproj", "{E216D538-FA6B-4E60-9F52-F5AB49E8D083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Files.Repositories.Local", "..\Penguin.Cms.Files.Repositories\Penguin.Cms.Files.Repositories.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Files.Repositories.Local", "..\Penguin.Cms.Files.Repositories\Penguin.Cms.Files.Repositories.Local.csproj", "{C3333E70-B9F7-4573-8B05-647CFFA850CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Modules.Security.Local", "..\Penguin.Cms.Modules.Security\Penguin.Cms.Modules.Security.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Modules.Security.Local", "..\Penguin.Cms.Modules.Security\Penguin.Cms.Modules.Security.Local.csproj", "{ED519EBA-C398-4EFC-8AF5-F5A0BE90C454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Authentication.OWA.Local", "..\Penguin.Authentication.OWA\Penguin.Authentication.OWA.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Authentication.OWA.Local", "..\Penguin.Authentication.OWA\Penguin.Authentication.OWA.Local.csproj", "{B92BDE03-CBB5-4077-8260-9485CB8DC2D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Security.Local", "..\Penguin.Security\Penguin.Security.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Security.Local", "..\Penguin.Security\Penguin.Security.Local.csproj", "{1A80447E-6CBD-4002-9DA3-730BAD264670}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Configuration.Local", "..\Penguin.Web.Configuration\Penguin.Web.Configuration.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Configuration.Local", "..\Penguin.Web.Configuration\Penguin.Web.Configuration.Local.csproj", "{819988E5-82EC-49B3-965D-40927C657B9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Web.Security.Local", "..\Penguin.Cms.Web.Security\Penguin.Cms.Web.Security.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Cms.Web.Security.Local", "..\Penguin.Cms.Web.Security\Penguin.Cms.Web.Security.Local.csproj", "{FED2D339-CAD4-4C00-9D1F-1B3B603AE498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Web.Extensions.Local", "..\Penguin.Web.Extensions\Penguin.Web.Extensions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Web.Extensions.Local", "..\Penguin.Web.Extensions\Penguin.Web.Extensions.Local.csproj", "{B1727207-1782-41DF-9A03-43F92451A671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Authentication.Exchange.Local", "..\Penguin.Authentication.Exchange\Penguin.Authentication.Exchange.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Authentication.Exchange.Local", "..\Penguin.Authentication.Exchange\Penguin.Authentication.Exchange.Local.csproj", "{58A98D4E-0ED6-4F32-8BD1-0C2733F7D8D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Authentication.Abstractions.Local", "..\Penguin.Authentication.Abstractions\Penguin.Authentication.Abstractions.Local.csproj", "{13404C16-31A9-4F8D-9A52-E3960702F308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Penguin.Authentication.Abstractions.Local", "..\Penguin.Authentication.Abstractions\Penguin.Authentication.Abstractions.Local.csproj", "{57A369B6-20CB-4AAB-BDED-839752479496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{13404C16-31A9-4F8D-9A52-E3960702F308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{13404C16-31A9-4F8D-9A52-E3960702F308}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13404C16-31A9-4F8D-9A52-E3960702F308}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13404C16-31A9-4F8D-9A52-E3960702F308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C9A4DD-6668-458B-92D9-45D12ACC4BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C9A4DD-6668-458B-92D9-45D12ACC4BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C9A4DD-6668-458B-92D9-45D12ACC4BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C9A4DD-6668-458B-92D9-45D12ACC4BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1C64A3-B175-47F8-BB99-2D4F9576C33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1C64A3-B175-47F8-BB99-2D4F9576C33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1C64A3-B175-47F8-BB99-2D4F9576C33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1C64A3-B175-47F8-BB99-2D4F9576C33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE93C1B1-C90C-41C3-BB29-46A46D9CEBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE93C1B1-C90C-41C3-BB29-46A46D9CEBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE93C1B1-C90C-41C3-BB29-46A46D9CEBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE93C1B1-C90C-41C3-BB29-46A46D9CEBE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AC49DC-8BAF-493B-872B-1B94446223B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AC49DC-8BAF-493B-872B-1B94446223B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AC49DC-8BAF-493B-872B-1B94446223B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AC49DC-8BAF-493B-872B-1B94446223B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20274FD0-3AF9-47B4-BE36-31EC81E993FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20274FD0-3AF9-47B4-BE36-31EC81E993FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20274FD0-3AF9-47B4-BE36-31EC81E993FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20274FD0-3AF9-47B4-BE36-31EC81E993FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6426F190-DA16-47D2-82B5-62D1EFC69F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6426F190-DA16-47D2-82B5-62D1EFC69F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6426F190-DA16-47D2-82B5-62D1EFC69F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6426F190-DA16-47D2-82B5-62D1EFC69F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A401D67-A6DD-4EB6-8F55-AFD2461684FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A401D67-A6DD-4EB6-8F55-AFD2461684FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A401D67-A6DD-4EB6-8F55-AFD2461684FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A401D67-A6DD-4EB6-8F55-AFD2461684FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C5FCBD-689D-4AE3-A9A5-C4C037DDF5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C5FCBD-689D-4AE3-A9A5-C4C037DDF5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C5FCBD-689D-4AE3-A9A5-C4C037DDF5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C5FCBD-689D-4AE3-A9A5-C4C037DDF5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B645A2EA-216B-491D-9D5A-4382AB6B641A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B645A2EA-216B-491D-9D5A-4382AB6B641A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B645A2EA-216B-491D-9D5A-4382AB6B641A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B645A2EA-216B-491D-9D5A-4382AB6B641A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC305D1-0376-463C-8144-3979FBC32365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC305D1-0376-463C-8144-3979FBC32365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC305D1-0376-463C-8144-3979FBC32365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC305D1-0376-463C-8144-3979FBC32365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8785B9D-5C02-4A48-9D1D-56B8935058E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8785B9D-5C02-4A48-9D1D-56B8935058E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8785B9D-5C02-4A48-9D1D-56B8935058E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8785B9D-5C02-4A48-9D1D-56B8935058E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D21A2A-1096-4DBE-88A8-487A8E2B4BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D21A2A-1096-4DBE-88A8-487A8E2B4BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D21A2A-1096-4DBE-88A8-487A8E2B4BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D21A2A-1096-4DBE-88A8-487A8E2B4BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CAEA55-3E11-4B46-89C3-E17FD9CAC93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CAEA55-3E11-4B46-89C3-E17FD9CAC93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CAEA55-3E11-4B46-89C3-E17FD9CAC93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CAEA55-3E11-4B46-89C3-E17FD9CAC93E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B319A1D6-6A6C-4FFC-B4A0-8C5088E2A538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B319A1D6-6A6C-4FFC-B4A0-8C5088E2A538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B319A1D6-6A6C-4FFC-B4A0-8C5088E2A538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B319A1D6-6A6C-4FFC-B4A0-8C5088E2A538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{964C2080-955E-451A-9E27-1A5CDDAC764E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964C2080-955E-451A-9E27-1A5CDDAC764E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964C2080-955E-451A-9E27-1A5CDDAC764E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964C2080-955E-451A-9E27-1A5CDDAC764E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA50A0F3-A094-45CC-9BA0-F25AB434AF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA50A0F3-A094-45CC-9BA0-F25AB434AF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA50A0F3-A094-45CC-9BA0-F25AB434AF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA50A0F3-A094-45CC-9BA0-F25AB434AF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBA1A98-8808-423E-B7D1-C700C4B056F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBA1A98-8808-423E-B7D1-C700C4B056F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBA1A98-8808-423E-B7D1-C700C4B056F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBA1A98-8808-423E-B7D1-C700C4B056F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35771D78-6962-4000-A5E6-8D2039D57D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35771D78-6962-4000-A5E6-8D2039D57D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35771D78-6962-4000-A5E6-8D2039D57D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35771D78-6962-4000-A5E6-8D2039D57D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F03003-1C25-4105-A191-A7FF792F966E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F03003-1C25-4105-A191-A7FF792F966E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F03003-1C25-4105-A191-A7FF792F966E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F03003-1C25-4105-A191-A7FF792F966E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09497E2A-42D1-4AD7-9549-971799E01005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09497E2A-42D1-4AD7-9549-971799E01005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09497E2A-42D1-4AD7-9549-971799E01005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09497E2A-42D1-4AD7-9549-971799E01005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640CCD12-EF99-4819-9AC2-EE49DE9D5EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640CCD12-EF99-4819-9AC2-EE49DE9D5EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640CCD12-EF99-4819-9AC2-EE49DE9D5EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640CCD12-EF99-4819-9AC2-EE49DE9D5EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876AB4A3-19EC-4F4C-9882-623F53622F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876AB4A3-19EC-4F4C-9882-623F53622F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876AB4A3-19EC-4F4C-9882-623F53622F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876AB4A3-19EC-4F4C-9882-623F53622F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2C5E17-F808-4295-92B8-E200B186FD24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2C5E17-F808-4295-92B8-E200B186FD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2C5E17-F808-4295-92B8-E200B186FD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2C5E17-F808-4295-92B8-E200B186FD24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6BB533-13A9-441B-9668-70A8354A3C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6BB533-13A9-441B-9668-70A8354A3C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6BB533-13A9-441B-9668-70A8354A3C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6BB533-13A9-441B-9668-70A8354A3C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97799268-0C45-4023-AAAE-3855C4DCDDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97799268-0C45-4023-AAAE-3855C4DCDDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97799268-0C45-4023-AAAE-3855C4DCDDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97799268-0C45-4023-AAAE-3855C4DCDDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD8B534-1D3E-4B4D-98F1-5B00047A60DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD8B534-1D3E-4B4D-98F1-5B00047A60DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD8B534-1D3E-4B4D-98F1-5B00047A60DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD8B534-1D3E-4B4D-98F1-5B00047A60DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED961B2D-EEED-4AA9-BBC5-B79B2D3B65FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED961B2D-EEED-4AA9-BBC5-B79B2D3B65FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED961B2D-EEED-4AA9-BBC5-B79B2D3B65FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED961B2D-EEED-4AA9-BBC5-B79B2D3B65FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D483CB-AD5A-4428-A7BA-636D31608FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D483CB-AD5A-4428-A7BA-636D31608FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D483CB-AD5A-4428-A7BA-636D31608FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D483CB-AD5A-4428-A7BA-636D31608FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C69C46-40BD-4934-AB51-A1556973683D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C69C46-40BD-4934-AB51-A1556973683D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C69C46-40BD-4934-AB51-A1556973683D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C69C46-40BD-4934-AB51-A1556973683D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DFA0A78-3DBF-4C5D-BADA-949907076E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFA0A78-3DBF-4C5D-BADA-949907076E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFA0A78-3DBF-4C5D-BADA-949907076E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFA0A78-3DBF-4C5D-BADA-949907076E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644CFDF3-A22E-49AD-AD89-7E70B3122712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644CFDF3-A22E-49AD-AD89-7E70B3122712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644CFDF3-A22E-49AD-AD89-7E70B3122712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644CFDF3-A22E-49AD-AD89-7E70B3122712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA486EAF-8457-4D7D-96C8-CFF235AA0668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA486EAF-8457-4D7D-96C8-CFF235AA0668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA486EAF-8457-4D7D-96C8-CFF235AA0668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA486EAF-8457-4D7D-96C8-CFF235AA0668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B68E0AB-6CFD-4A53-AE65-86BEFFA0CF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B68E0AB-6CFD-4A53-AE65-86BEFFA0CF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B68E0AB-6CFD-4A53-AE65-86BEFFA0CF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B68E0AB-6CFD-4A53-AE65-86BEFFA0CF4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197FCD18-0777-4CE9-AC66-9F099FFE3AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197FCD18-0777-4CE9-AC66-9F099FFE3AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197FCD18-0777-4CE9-AC66-9F099FFE3AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197FCD18-0777-4CE9-AC66-9F099FFE3AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E834068-6D11-47CC-9E40-C72AF640F3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E834068-6D11-47CC-9E40-C72AF640F3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E834068-6D11-47CC-9E40-C72AF640F3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E834068-6D11-47CC-9E40-C72AF640F3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BFE035-8813-4B82-8FD7-2BAD9404C3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BFE035-8813-4B82-8FD7-2BAD9404C3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BFE035-8813-4B82-8FD7-2BAD9404C3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BFE035-8813-4B82-8FD7-2BAD9404C3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A6BD1C-399B-4C03-B8A1-9817EBC903E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A6BD1C-399B-4C03-B8A1-9817EBC903E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A6BD1C-399B-4C03-B8A1-9817EBC903E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A6BD1C-399B-4C03-B8A1-9817EBC903E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA73BE4-5846-4677-8F06-9E46AE4F85F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA73BE4-5846-4677-8F06-9E46AE4F85F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA73BE4-5846-4677-8F06-9E46AE4F85F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA73BE4-5846-4677-8F06-9E46AE4F85F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F545C7D2-949E-4CAE-BC48-9D75B62263F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F545C7D2-949E-4CAE-BC48-9D75B62263F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F545C7D2-949E-4CAE-BC48-9D75B62263F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F545C7D2-949E-4CAE-BC48-9D75B62263F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EFCD466-ADBC-4641-8CEE-77C02A9E3786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFCD466-ADBC-4641-8CEE-77C02A9E3786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFCD466-ADBC-4641-8CEE-77C02A9E3786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFCD466-ADBC-4641-8CEE-77C02A9E3786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5FBF444-4C25-4304-8862-CE6DE6803B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5FBF444-4C25-4304-8862-CE6DE6803B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5FBF444-4C25-4304-8862-CE6DE6803B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5FBF444-4C25-4304-8862-CE6DE6803B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B745B1E8-08CB-4E00-ADB3-9604F37D77EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B745B1E8-08CB-4E00-ADB3-9604F37D77EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B745B1E8-08CB-4E00-ADB3-9604F37D77EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B745B1E8-08CB-4E00-ADB3-9604F37D77EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF170FB-F3B2-4A4D-8AC5-ACD5A38AD60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF170FB-F3B2-4A4D-8AC5-ACD5A38AD60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF170FB-F3B2-4A4D-8AC5-ACD5A38AD60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF170FB-F3B2-4A4D-8AC5-ACD5A38AD60D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42203DBE-28F4-4A12-A082-BC64B9037B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42203DBE-28F4-4A12-A082-BC64B9037B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42203DBE-28F4-4A12-A082-BC64B9037B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42203DBE-28F4-4A12-A082-BC64B9037B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F344769E-67E0-4556-B875-C6C09EE375D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F344769E-67E0-4556-B875-C6C09EE375D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F344769E-67E0-4556-B875-C6C09EE375D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F344769E-67E0-4556-B875-C6C09EE375D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32CC93A7-E354-42A4-BFC6-5437E37B15C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CC93A7-E354-42A4-BFC6-5437E37B15C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CC93A7-E354-42A4-BFC6-5437E37B15C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CC93A7-E354-42A4-BFC6-5437E37B15C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6FFF69-DF99-4CE3-8007-D9EBE878FB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6FFF69-DF99-4CE3-8007-D9EBE878FB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6FFF69-DF99-4CE3-8007-D9EBE878FB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6FFF69-DF99-4CE3-8007-D9EBE878FB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A809F687-23C1-4A76-AE38-8C4886B7E792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A809F687-23C1-4A76-AE38-8C4886B7E792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A809F687-23C1-4A76-AE38-8C4886B7E792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A809F687-23C1-4A76-AE38-8C4886B7E792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CB07FD-DFBA-46E4-8BD4-137D5EF62A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CB07FD-DFBA-46E4-8BD4-137D5EF62A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CB07FD-DFBA-46E4-8BD4-137D5EF62A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CB07FD-DFBA-46E4-8BD4-137D5EF62A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C654EAD6-42C2-4AD6-BDAA-7E2E114F2AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C654EAD6-42C2-4AD6-BDAA-7E2E114F2AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C654EAD6-42C2-4AD6-BDAA-7E2E114F2AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C654EAD6-42C2-4AD6-BDAA-7E2E114F2AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A28B689-DD90-4316-834A-C42F83823FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A28B689-DD90-4316-834A-C42F83823FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A28B689-DD90-4316-834A-C42F83823FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A28B689-DD90-4316-834A-C42F83823FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6B47B2-FFD2-4F28-A16E-A3C4A9075C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6B47B2-FFD2-4F28-A16E-A3C4A9075C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6B47B2-FFD2-4F28-A16E-A3C4A9075C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6B47B2-FFD2-4F28-A16E-A3C4A9075C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAA727B-2C84-4638-8C15-83827DE9E713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAA727B-2C84-4638-8C15-83827DE9E713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAA727B-2C84-4638-8C15-83827DE9E713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAA727B-2C84-4638-8C15-83827DE9E713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178817D1-AABF-45BE-99BF-DE63D14D2D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178817D1-AABF-45BE-99BF-DE63D14D2D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178817D1-AABF-45BE-99BF-DE63D14D2D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178817D1-AABF-45BE-99BF-DE63D14D2D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A8F8C4-45FE-45F9-BB22-7DADFC380604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A8F8C4-45FE-45F9-BB22-7DADFC380604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A8F8C4-45FE-45F9-BB22-7DADFC380604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A8F8C4-45FE-45F9-BB22-7DADFC380604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522CAD0B-85A6-4687-A9D5-11B6ED1F27C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522CAD0B-85A6-4687-A9D5-11B6ED1F27C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522CAD0B-85A6-4687-A9D5-11B6ED1F27C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522CAD0B-85A6-4687-A9D5-11B6ED1F27C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7FF303-97F4-4AEE-A305-20187EF122AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7FF303-97F4-4AEE-A305-20187EF122AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7FF303-97F4-4AEE-A305-20187EF122AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7FF303-97F4-4AEE-A305-20187EF122AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1885B639-70C4-4AE9-9C7E-0057E2340097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1885B639-70C4-4AE9-9C7E-0057E2340097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1885B639-70C4-4AE9-9C7E-0057E2340097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1885B639-70C4-4AE9-9C7E-0057E2340097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9672D1B-5C36-481C-A32F-9F210FFB26E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9672D1B-5C36-481C-A32F-9F210FFB26E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9672D1B-5C36-481C-A32F-9F210FFB26E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9672D1B-5C36-481C-A32F-9F210FFB26E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23FEF9E0-FD48-4877-8D52-BB8C00C5FE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FEF9E0-FD48-4877-8D52-BB8C00C5FE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FEF9E0-FD48-4877-8D52-BB8C00C5FE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FEF9E0-FD48-4877-8D52-BB8C00C5FE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A356E8-53E0-4E81-9593-A0B960FA16A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A356E8-53E0-4E81-9593-A0B960FA16A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A356E8-53E0-4E81-9593-A0B960FA16A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A356E8-53E0-4E81-9593-A0B960FA16A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4803AE2-9D8A-493F-BF7C-A5B77678DC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4803AE2-9D8A-493F-BF7C-A5B77678DC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4803AE2-9D8A-493F-BF7C-A5B77678DC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4803AE2-9D8A-493F-BF7C-A5B77678DC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2698022E-1B3E-4BED-A9E9-E6F35C4AFCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2698022E-1B3E-4BED-A9E9-E6F35C4AFCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2698022E-1B3E-4BED-A9E9-E6F35C4AFCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2698022E-1B3E-4BED-A9E9-E6F35C4AFCC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A81CAB-8C2D-4083-9CD5-C55864C2E5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A81CAB-8C2D-4083-9CD5-C55864C2E5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A81CAB-8C2D-4083-9CD5-C55864C2E5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A81CAB-8C2D-4083-9CD5-C55864C2E5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F13D9CE-20FF-46E8-A5AE-BE6B6CC0140C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F13D9CE-20FF-46E8-A5AE-BE6B6CC0140C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F13D9CE-20FF-46E8-A5AE-BE6B6CC0140C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F13D9CE-20FF-46E8-A5AE-BE6B6CC0140C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EC29C9-E998-4D62-8D43-4AA9E5FBD758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EC29C9-E998-4D62-8D43-4AA9E5FBD758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EC29C9-E998-4D62-8D43-4AA9E5FBD758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EC29C9-E998-4D62-8D43-4AA9E5FBD758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E6A5AE-E819-4995-B728-788A99105A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E6A5AE-E819-4995-B728-788A99105A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E6A5AE-E819-4995-B728-788A99105A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E6A5AE-E819-4995-B728-788A99105A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5279FA59-8BEE-4597-A483-12B67257B36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5279FA59-8BEE-4597-A483-12B67257B36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5279FA59-8BEE-4597-A483-12B67257B36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5279FA59-8BEE-4597-A483-12B67257B36E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E28BE5E3-0C66-465E-9F9A-85DD5FDA13C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28BE5E3-0C66-465E-9F9A-85DD5FDA13C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28BE5E3-0C66-465E-9F9A-85DD5FDA13C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28BE5E3-0C66-465E-9F9A-85DD5FDA13C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B216240-FA38-48AF-B2B6-AA44566C0239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B216240-FA38-48AF-B2B6-AA44566C0239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B216240-FA38-48AF-B2B6-AA44566C0239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B216240-FA38-48AF-B2B6-AA44566C0239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE288E0-7616-408E-B86B-ACAC4FEA10CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE288E0-7616-408E-B86B-ACAC4FEA10CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE288E0-7616-408E-B86B-ACAC4FEA10CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE288E0-7616-408E-B86B-ACAC4FEA10CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04CC8655-D076-44C4-8C86-D1169F730548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CC8655-D076-44C4-8C86-D1169F730548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CC8655-D076-44C4-8C86-D1169F730548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CC8655-D076-44C4-8C86-D1169F730548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34463A02-2779-4CAB-BCBE-08998374C597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34463A02-2779-4CAB-BCBE-08998374C597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34463A02-2779-4CAB-BCBE-08998374C597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34463A02-2779-4CAB-BCBE-08998374C597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E20F02-6791-4F12-93AA-BA5632049F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E20F02-6791-4F12-93AA-BA5632049F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E20F02-6791-4F12-93AA-BA5632049F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E20F02-6791-4F12-93AA-BA5632049F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE091FD9-1A26-445F-8D25-8A4CA258AC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE091FD9-1A26-445F-8D25-8A4CA258AC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE091FD9-1A26-445F-8D25-8A4CA258AC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE091FD9-1A26-445F-8D25-8A4CA258AC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613B27D0-2A93-47FC-9A07-50B614EA33E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613B27D0-2A93-47FC-9A07-50B614EA33E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613B27D0-2A93-47FC-9A07-50B614EA33E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613B27D0-2A93-47FC-9A07-50B614EA33E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F8724C-3C78-4D40-9407-2EB2F4B6AF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F8724C-3C78-4D40-9407-2EB2F4B6AF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F8724C-3C78-4D40-9407-2EB2F4B6AF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F8724C-3C78-4D40-9407-2EB2F4B6AF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A459EEB-2018-46CC-9EB1-26BB87DCD36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A459EEB-2018-46CC-9EB1-26BB87DCD36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A459EEB-2018-46CC-9EB1-26BB87DCD36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A459EEB-2018-46CC-9EB1-26BB87DCD36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03612EC9-F552-406C-9BB7-E66D271E1337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03612EC9-F552-406C-9BB7-E66D271E1337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03612EC9-F552-406C-9BB7-E66D271E1337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03612EC9-F552-406C-9BB7-E66D271E1337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B6AB97-C410-48E8-9791-7C3E669A91D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B6AB97-C410-48E8-9791-7C3E669A91D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B6AB97-C410-48E8-9791-7C3E669A91D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B6AB97-C410-48E8-9791-7C3E669A91D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9742336B-54E1-4719-8E0C-0E3DC3D9BC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9742336B-54E1-4719-8E0C-0E3DC3D9BC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9742336B-54E1-4719-8E0C-0E3DC3D9BC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9742336B-54E1-4719-8E0C-0E3DC3D9BC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0032220F-9024-425F-A8C1-28F36596218E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0032220F-9024-425F-A8C1-28F36596218E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0032220F-9024-425F-A8C1-28F36596218E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0032220F-9024-425F-A8C1-28F36596218E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0FC75EE-F3ED-4E66-9684-F02CC892710C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FC75EE-F3ED-4E66-9684-F02CC892710C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FC75EE-F3ED-4E66-9684-F02CC892710C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FC75EE-F3ED-4E66-9684-F02CC892710C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E839A6CC-35D0-4780-9CA0-C5829CDE6666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E839A6CC-35D0-4780-9CA0-C5829CDE6666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E839A6CC-35D0-4780-9CA0-C5829CDE6666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E839A6CC-35D0-4780-9CA0-C5829CDE6666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C1E49F9-6CC9-4690-AD4F-7B77369FD01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1E49F9-6CC9-4690-AD4F-7B77369FD01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1E49F9-6CC9-4690-AD4F-7B77369FD01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1E49F9-6CC9-4690-AD4F-7B77369FD01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B91D48-EB62-40B2-9274-71D708521432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B91D48-EB62-40B2-9274-71D708521432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B91D48-EB62-40B2-9274-71D708521432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B91D48-EB62-40B2-9274-71D708521432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DACDEC-4631-4626-BBD9-88F0E6E2CA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DACDEC-4631-4626-BBD9-88F0E6E2CA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DACDEC-4631-4626-BBD9-88F0E6E2CA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DACDEC-4631-4626-BBD9-88F0E6E2CA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2027554F-2A9B-4986-8B51-0814ED6AA4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2027554F-2A9B-4986-8B51-0814ED6AA4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2027554F-2A9B-4986-8B51-0814ED6AA4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2027554F-2A9B-4986-8B51-0814ED6AA4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2187AAD8-84A5-4D0B-BCAC-93DD943A6A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2187AAD8-84A5-4D0B-BCAC-93DD943A6A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2187AAD8-84A5-4D0B-BCAC-93DD943A6A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2187AAD8-84A5-4D0B-BCAC-93DD943A6A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC4E40F-5286-4D37-ADBB-DA6B0141C9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC4E40F-5286-4D37-ADBB-DA6B0141C9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC4E40F-5286-4D37-ADBB-DA6B0141C9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC4E40F-5286-4D37-ADBB-DA6B0141C9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154954EA-08BA-40C2-B13D-0FC49265E64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154954EA-08BA-40C2-B13D-0FC49265E64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154954EA-08BA-40C2-B13D-0FC49265E64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154954EA-08BA-40C2-B13D-0FC49265E64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDDA8B3-BF4D-40A6-9415-E139086CBE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDDA8B3-BF4D-40A6-9415-E139086CBE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDDA8B3-BF4D-40A6-9415-E139086CBE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDDA8B3-BF4D-40A6-9415-E139086CBE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D83B288-DBB8-4236-BEE2-0C822DBE2FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D83B288-DBB8-4236-BEE2-0C822DBE2FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D83B288-DBB8-4236-BEE2-0C822DBE2FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D83B288-DBB8-4236-BEE2-0C822DBE2FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07C69AE-85E0-4467-9765-925F6C987CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07C69AE-85E0-4467-9765-925F6C987CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07C69AE-85E0-4467-9765-925F6C987CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07C69AE-85E0-4467-9765-925F6C987CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41FD3679-1220-4FA5-8B9E-CDB9A47D8ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FD3679-1220-4FA5-8B9E-CDB9A47D8ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FD3679-1220-4FA5-8B9E-CDB9A47D8ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FD3679-1220-4FA5-8B9E-CDB9A47D8ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189B8BCC-2175-4BE7-9F1F-26D6D40DF16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189B8BCC-2175-4BE7-9F1F-26D6D40DF16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189B8BCC-2175-4BE7-9F1F-26D6D40DF16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189B8BCC-2175-4BE7-9F1F-26D6D40DF16F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE705628-D059-45C6-A538-D4E4865CE079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE705628-D059-45C6-A538-D4E4865CE079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE705628-D059-45C6-A538-D4E4865CE079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE705628-D059-45C6-A538-D4E4865CE079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F79C6F5-7C55-49E9-89C7-4FFD400FBC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F79C6F5-7C55-49E9-89C7-4FFD400FBC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F79C6F5-7C55-49E9-89C7-4FFD400FBC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F79C6F5-7C55-49E9-89C7-4FFD400FBC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FABD9414-97F5-486E-9C9A-F472969B6C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABD9414-97F5-486E-9C9A-F472969B6C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABD9414-97F5-486E-9C9A-F472969B6C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABD9414-97F5-486E-9C9A-F472969B6C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB4B1CD-B253-4410-A211-C5E47626B696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB4B1CD-B253-4410-A211-C5E47626B696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB4B1CD-B253-4410-A211-C5E47626B696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB4B1CD-B253-4410-A211-C5E47626B696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0D2FAA-2EDE-4023-AC7D-533AB647CFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0D2FAA-2EDE-4023-AC7D-533AB647CFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0D2FAA-2EDE-4023-AC7D-533AB647CFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0D2FAA-2EDE-4023-AC7D-533AB647CFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E216D538-FA6B-4E60-9F52-F5AB49E8D083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E216D538-FA6B-4E60-9F52-F5AB49E8D083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E216D538-FA6B-4E60-9F52-F5AB49E8D083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E216D538-FA6B-4E60-9F52-F5AB49E8D083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3333E70-B9F7-4573-8B05-647CFFA850CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3333E70-B9F7-4573-8B05-647CFFA850CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3333E70-B9F7-4573-8B05-647CFFA850CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3333E70-B9F7-4573-8B05-647CFFA850CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED519EBA-C398-4EFC-8AF5-F5A0BE90C454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED519EBA-C398-4EFC-8AF5-F5A0BE90C454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED519EBA-C398-4EFC-8AF5-F5A0BE90C454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED519EBA-C398-4EFC-8AF5-F5A0BE90C454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92BDE03-CBB5-4077-8260-9485CB8DC2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92BDE03-CBB5-4077-8260-9485CB8DC2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92BDE03-CBB5-4077-8260-9485CB8DC2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92BDE03-CBB5-4077-8260-9485CB8DC2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A80447E-6CBD-4002-9DA3-730BAD264670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A80447E-6CBD-4002-9DA3-730BAD264670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A80447E-6CBD-4002-9DA3-730BAD264670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A80447E-6CBD-4002-9DA3-730BAD264670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819988E5-82EC-49B3-965D-40927C657B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819988E5-82EC-49B3-965D-40927C657B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819988E5-82EC-49B3-965D-40927C657B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819988E5-82EC-49B3-965D-40927C657B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED2D339-CAD4-4C00-9D1F-1B3B603AE498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED2D339-CAD4-4C00-9D1F-1B3B603AE498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED2D339-CAD4-4C00-9D1F-1B3B603AE498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED2D339-CAD4-4C00-9D1F-1B3B603AE498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1727207-1782-41DF-9A03-43F92451A671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1727207-1782-41DF-9A03-43F92451A671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1727207-1782-41DF-9A03-43F92451A671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1727207-1782-41DF-9A03-43F92451A671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A98D4E-0ED6-4F32-8BD1-0C2733F7D8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A98D4E-0ED6-4F32-8BD1-0C2733F7D8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A98D4E-0ED6-4F32-8BD1-0C2733F7D8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A98D4E-0ED6-4F32-8BD1-0C2733F7D8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A369B6-20CB-4AAB-BDED-839752479496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A369B6-20CB-4AAB-BDED-839752479496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A369B6-20CB-4AAB-BDED-839752479496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A369B6-20CB-4AAB-BDED-839752479496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {001A6D3A-E26B-4607-A895-DF8F3E83774F}
 	EndGlobalSection
 EndGlobal

@@ -4,7 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Penguin.Cms.Web.Mvc;
 using System;
 
-namespace Penguin.Cms.Client
+namespace Penguin.Cms.Template
 {
     public static class Program
     {
@@ -12,9 +12,9 @@ namespace Penguin.Cms.Client
 
         public static void Main()
         {
-            Penguin.Cms.Web.Mvc.HostBuilder.Configure().ConfigureWebHostDefaults(webBuilder =>
+            Web.Mvc.HostBuilder.Configure().ConfigureWebHostDefaults(webBuilder =>
             {
-                webBuilder.UseIIS()
+                _ = webBuilder.UseIIS()
                 .ConfigureKestrel(serverOptions =>
                 {
                     // Set properties and call methods on options

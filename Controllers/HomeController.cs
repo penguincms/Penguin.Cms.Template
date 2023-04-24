@@ -6,6 +6,8 @@ namespace Penguin.Cms.Template.Controllers
 {
     public class HomeController : Controller
     {
+        public HomeController() { }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

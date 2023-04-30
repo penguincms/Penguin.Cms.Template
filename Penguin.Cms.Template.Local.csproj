@@ -20,6 +20,7 @@
       <CopyLocalSatelliteAssemblies>False</CopyLocalSatelliteAssemblies>
       <Private>True</Private>
     </ProjectReference>
+    <ProjectReference Include="..\Penguin.Authentication.Domain\Penguin.Authentication.Domain.Local.csproj" />
     <ProjectReference Include="..\Penguin.Authentication.Exchange\Penguin.Authentication.Exchange.Local.csproj">
       <CopyLocalSatelliteAssemblies>False</CopyLocalSatelliteAssemblies>
       <Private>True</Private>

@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using Penguin.Cms.Web.Mvc;
 using System;
 
 namespace Penguin.Cms.Template
